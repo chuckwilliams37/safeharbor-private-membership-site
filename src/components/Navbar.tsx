@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useEffect, useRef, useState } from 'react'
 import { Popover } from '@headlessui/react'
@@ -45,7 +45,7 @@ function MenuIcon({
   )
 }
 
-export function NavBar() {
+export default function NavBar() {
   let navBarRef = useRef<React.ElementRef<'div'>>(null)
   let [activeIndex, setActiveIndex] = useState<number | null>(null)
   let mobileActiveIndex = activeIndex === null ? 0 : activeIndex
