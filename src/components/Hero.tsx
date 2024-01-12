@@ -54,7 +54,7 @@ export function Hero() {
               Fortify Your Freedom
             </h1>
             <p className="mt-4 text-3xl text-slate-600">
-              In moments of crisis when the future seems unsure, Voluntaria's SafeHarbor Private Membership Emergency Support Plan
+              In moments of crisis when the future seems unsure, Voluntaria&apos;s SafeHarbor Private Membership Emergency Support Plan
               emerges as your Florida oak forest retreat to gather together and
               support one another.
             </p>
