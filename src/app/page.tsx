@@ -22,7 +22,6 @@ export default function Home() {
     <>
       <Hero />
       <Introduction />
-      <NavBar />
       <ClickableOverview />
       <Testimonial
         id="testimonial-from-kevin-beamish"
