@@ -45,7 +45,7 @@ function MenuIcon({
   )
 }
 
-export function NavBar() {
+export function NavigationBar() {
   let navBarRef = useRef<React.ElementRef<'div'>>(null)
   let [activeIndex, setActiveIndex] = useState<number | null>(null)
   let mobileActiveIndex = activeIndex === null ? 0 : activeIndex

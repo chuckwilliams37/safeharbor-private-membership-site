@@ -1,6 +1,7 @@
 import { Author } from '@/components/Author'
 import { Footer } from '@/components/Footer'
 import { Hero } from '@/components/Hero'
+import { NavigationBar } from '@/components/NavigationBar'
 import { Introduction } from '@/components/Introduction'
 import { Pricing } from '@/components/Pricing'
 import { ClickableOverview } from '@/components/ClickableOverview'
@@ -21,7 +22,9 @@ export default function Home() {
     <>
       <Hero />
       <Introduction />
+      <NavigationBar/>
       <ClickableOverview />
+
       <Testimonial
         id="testimonial-from-kevin-beamish"
         author={{
