@@ -12,30 +12,66 @@ export function Introduction() {
     >
       <Container className="text-lg tracking-tight text-slate-700">
         <p className="font-display text-4xl font-bold tracking-tight text-slate-900">
-          A United Front as Your Private Membership Haven in Uncertainty
+          Your Private Membership Emergency Support Team & Oak Forested Haven
+          Retreat
         </p>
         <p className="mt-4">
-          In moments when the future seems unsure, SafeHarbor emerges as your
-          dependable retreat. Here, we extend beyond simple promises to offer a
-          real place of security and togetherness. In any crisis, our private
-          community is your sanctuary, a place where members find strength and
-          connection, ready to face challenges as one.
+          Our private 52 Acre community is your sanctuary, a place where members
+          find strength and connection, ready to face challenges as one.
         </p>
         <ul role="list" className="mt-8 space-y-3">
           {[
-            'Secure tomorrow&apos;s freedom today with the Voluntaria Private Membership Emergency Support Plan—your proactive pact for unwavering community resilience and sovereignty.',
-            'Craft meaningful connections in an exclusive haven where each member is a cornerstone of our tight-knit sanctuary of solidarity.',
-            'Reclaim serenity with your guaranteed annual retreat, a week of unity and renewal amidst the tranquil embrace of nature&apos;s strength.',
-            'Step into the future with a Private Membership Plan protected by blockchain, where modern security meets the enduring promise of community trust.',
-            'Shape a living legacy with a Private Membership Plan that evolves through your voice, ensuring your vision and values are woven into the fabric of our collective future.',
-            'Immerse yourself in transformative knowledge with immersive workshops on permaculture and survival, igniting growth and camaraderie in every encounter.',
-            'Stand tall in the face of uncertainty, knowing your membership is not just security — it&apos;s a bold step towards a self-reliant and connected tomorrow.',
-          ].map((feature) => (
-            <li key={feature} className="flex">
+            {
+              name: 'Annual Cabin Retreat',
+              description:
+                'Secure your annual week-long stay in our cabin, with the opportunity to enjoy the encompassing beauty of 52 acres of rural Northeast Florida land poised for the development of public kitchens and climate-controlled storage.',
+            },
+            {
+              name: 'Fertile Gardening Land',
+              description:
+                'Cultivate and harvest on chemical-free soil confirmed for its purity, especially advantageous for gardening, supported by ample water sources including two wells and a natural spring.',
+            },
+            {
+              name: 'Emergency Resources',
+              description:
+                'Access a suite of emergency resources as a member: immediately available meals, camping gear, and currently 3 RV hookups—expanding to 12-20 within two years.',
+            },
+            {
+              name: 'Member Online Community',
+              description:
+                'Engage with other members in our online Safeharbor community, a moderated space for sharing knowledge, promoting sustainable practices, and connecting with a network committed to off-grid living.',
+            },
+            {
+              name: 'Active Decision-Making Role',
+              description:
+                "Take an active role in decision-making by contributing to the property board group's governance; propose and influence capital development projects firsthand.",
+            },
+            {
+              name: 'Quarterly Development Updates',
+              description:
+                'Stay informed through consistent quarterly updates on the development of planned facilities, scheduled member workshops, and upcoming on-property events.',
+            },
+            {
+              name: 'Join the Execution Team',
+              description:
+                'Participate, if you choose, in the execution team tasked with developing our yet-to-be-constructed public facilities, directly applying your expertise to guide our collective efforts.',
+            },
+            {
+              name: 'Strategic Location',
+              description:
+                "Benefit from the property's strategic location, accessible within a 1.5-hour drive from major urban centers like St. Augustine, Orlando, and Jacksonville, ensuring convenient access for both emergency services and personal visits.",
+            },
+            {
+              name: 'Conflict Resolution Services',
+              description:
+                'Find reassurance in the event of any consensus disagreements with access to professional conflict resolution services, ensuring all voices are heard and valued within our membership agreement.',
+            },
+          ].map((featureObj, index) => (
+            <li key={index + 1} className="flex">
               <CheckIcon className="h-8 w-8 flex-none fill-green-500" />
               <span
                 className="ml-4"
-                dangerouslySetInnerHTML={{ __html: feature }}
+                dangerouslySetInnerHTML={{ __html: featureObj.description }}
               ></span>
             </li>
           ))}

@@ -1,5 +1,5 @@
 import { Author } from '@/components/Author'
-import Footer from '@/components/Footer'
+import { Footer } from '@/components/Footer'
 import { FreeChapters } from '@/components/FreeChapters'
 import { Hero } from '@/components/Hero'
 import { Introduction } from '@/components/Introduction'
@@ -18,6 +18,7 @@ import { InformationCircleIcon } from '@heroicons/react/20/solid'
 import Image from 'next/image'
 import managementAndTechImage from '@/images/bitcoin-blockchain-camper-oak-forest.png'
 import ManagementTechSection from '@/components/ManagementTechSection'
+import EmergencyProtocols from '@/components/EmergencyProtocols'
 
 export default function Home() {
   return (
@@ -66,10 +67,11 @@ export default function Home() {
             className="mt-0.5 h-5 w-5 flex-none text-gray-300"
             aria-hidden="true"
           />
-          Our members are trained in the use and deployment of cryptocurrencies and NFTs.
+          Our members are trained (and train others) in the use and deployment of cryptocurrencies and NFTs.
         </figcaption>
       </figure>
       <ManagementTechSection />
+      <EmergencyProtocols />
       <Pricing />
       <Testimonials />
       <Author />

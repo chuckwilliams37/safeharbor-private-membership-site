@@ -54,9 +54,9 @@ export function Hero() {
               Fortify Your Freedom
             </h1>
             <p className="mt-4 text-3xl text-slate-600">
-              In moments when the future seems unsure, Voluntaria&apos;s
-              Safeharbor Membership Plan emerges as your dependable
-              retreat.
+              In moments of crisis when the future seems unsure, Voluntaria's SafeHarbor Private Membership Emergency Support Plan
+              emerges as your Florida oak forest retreat to gather together and
+              support one another.
             </p>
             <div className="mt-8 flex gap-4">
               <Button href="#join-today" color="green">
