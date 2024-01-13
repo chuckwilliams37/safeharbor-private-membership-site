@@ -71,8 +71,8 @@ export default function Home() {
       <ManagementTechSection />
       <EmergencyProtocols />
       <Pricing />
-      <Testimonials />
-      <Author />
+      {/* <Testimonials />
+      <Author /> */}
       <Footer />
     </>
   )
