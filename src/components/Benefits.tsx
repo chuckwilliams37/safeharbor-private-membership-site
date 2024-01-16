@@ -29,7 +29,7 @@ export function Benefits() {
     {
       name: 'Emergency Preparedness and Expansion',
       description:
-        'Immediate access to emergency resources and support, including 3 RV hookups with plans to expand, for peace of mind.',
+        'Immediate access to emergency resources and support, with plans to expand community-preference-weighted supplies and equipment, for aligned and considered peace of mind.',
       icon: (
         <ShieldCheckIcon
           className="h-5 w-5 text-green-600"

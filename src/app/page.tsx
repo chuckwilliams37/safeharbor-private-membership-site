@@ -52,8 +52,8 @@ export default function Home() {
           have researched a lot of others. I have seen a lot of what works and
           what doesn&apos;t. Being founder of Voluntaria it&apos;s extremely
           exciting to work on a project where we take the working bits and
-          create voluntaryist solutions to the bits that did not work
-          well.&rdquo;
+          create solid voluntaryist solutions to the bits that have experienced
+          that did not work well.&rdquo;
         </p>
       </Testimonial>
       <Benefits />
@@ -75,6 +75,9 @@ export default function Home() {
       <ManagementTechSection />
       <EmergencyProtocols />
       <Pricing />
+      <div>{/* Pricing Support */}</div>
+      <div>{/* Legal / Ethics */}</div>
+      <div>{/* Conclusion */}</div>
       {/* <Testimonials />
       <Author /> */}
       <Footer />

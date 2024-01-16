@@ -9,6 +9,7 @@ import {
 } from '@heroicons/react/20/solid'
 import tallStarryNight001 from '@/images/tall-starry-night-002.png'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export function Ethos() {
   return (
@@ -48,8 +49,8 @@ export function Ethos() {
                   aligned with the values of liberty, mutual respect, and
                   proactive living. As a product of The Voluntaria Community, it
                   offers an invitation to individuals seeking to live by
-                  principles that foster personal growth and collective
-                  wellbeing. Discover how SafeHarbor encapsulates the essence of
+                  principles that foster personal growth and collective well
+                  being. Discover how SafeHarbor encapsulates the essence of
                   voluntaryism, creating a platform for members to live freely,
                   honorably, and in harmony with nature.
                 </p>
@@ -84,10 +85,17 @@ export function Ethos() {
                         </strong>
                         <p>
                           Each member of SafeHarbor is seen as integral to the
-                          community&apos;s health. By adhering to Voluntaria
-                          Guidelines—such as practicing kindness,
-                          self-governance, and voluntary transactions—we commit
-                          to enhancing each other&apos;s lives.
+                          community&apos;s health. By adhering to{' '}
+                          <a
+                            href="https://www.voluntaria.community"
+                            target="_blank"
+                            className="font-medium text-green-600 hover:underline"
+                          >
+                            Voluntaria Guidelines
+                          </a>
+                          —such as practicing kindness, self-governance, and
+                          voluntary transactions—we commit to enhancing each
+                          other&apos;s lives.
                         </p>
                       </div>
                     </li>
@@ -137,11 +145,17 @@ export function Ethos() {
                           Honorable Resolutions
                         </strong>
                         <p>
-                          In the spirit of the Voluntaria guidelines, SafeHarbor
-                          provides mechanisms for equitable and honorable
-                          dispute resolution. We believe in resolving conflicts
-                          with dignity, upholding the promise of a united
-                          community.
+                          In the spirit of{' '}
+                          <a
+                            className="font-medium text-green-600 hover:underline"
+                            href="https://www.voluntaria.community/the-10-guidelines.html"
+                          >
+                            the Voluntaria guidelines
+                          </a>{' '}
+                          SafeHarbor provides mechanisms for equitable and
+                          honorable dispute resolution. We believe in resolving
+                          conflicts with dignity, upholding the promise of a
+                          united community.
                         </p>
                       </div>
                     </li>
@@ -151,7 +165,7 @@ export function Ethos() {
                     we invite you to{' '}
                     <a
                       href="https://www.voluntaria.community"
-                      target='_blank'
+                      target="_blank"
                       className="font-medium text-green-600 hover:underline"
                     >
                       learn more about The Voluntaria Community
