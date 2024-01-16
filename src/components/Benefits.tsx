@@ -87,7 +87,7 @@ export function Benefits() {
                     From annual getaways in nature to shared resources and
                     emergency preparedness, we&apos;ve got your back. It&apos;s
                     a place to learn, to share, and to be part of something
-                    special. Let&apos;s make the most of it, together.
+                    special. 
                   </p>
                   <dl className="mt-10 space-y-8 text-base leading-7 text-gray-600">
                     {features.map((feature) => (
