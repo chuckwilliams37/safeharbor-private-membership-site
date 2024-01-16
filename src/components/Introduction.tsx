@@ -34,7 +34,7 @@ export function Introduction() {
             {
               name: 'Emergency Resources',
               description:
-                'Access a suite of emergency resources as a member: immediately available meals, camping gear, and currently 3 RV hookups—expanding to 12-20 within two years.',
+                'Immediate access to emergency resources and support, with plans to expand community-preference-weighted supplies and equipment, for aligned and considered peace of mind.',
             },
             {
               name: 'Member Online Community',
