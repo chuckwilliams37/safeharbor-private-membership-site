@@ -113,41 +113,58 @@ export function Pricing() {
     >
       <Container>
         <SectionHeading number="4" id="pricing-title">
-          Pricing
+          Pricing PLACEHOLDER
         </SectionHeading>
         <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
           Pick your package
         </p>
         <p className="mt-4 max-w-xl text-lg tracking-tight text-slate-600">
-          “Everything Starts as a Square” is available in two different packages
-          so you can pick the one that’s right for you.
+          SafeHarbor membership is available in annual memberships, with heavy
+          (partially refundable) discounts applied to mult-year purchases. so
+          you can pick the one that&apos;s right for you.
         </p>
       </Container>
       <div className="mx-auto mt-16 max-w-5xl lg:px-6">
         <div className="grid bg-slate-50 sm:px-6 sm:pb-16 md:grid-cols-2 md:rounded-6xl md:px-8 md:pt-16 lg:p-20">
           <Plan
-            name="Essential"
-            description="The perfect starting point if you’re on a budget."
-            price="15"
+            name="Annual"
+            description="Voluntaria's SafeHarbor Private Membership Emergency Support & Retreat Contract (billed annually)."
+            price="1600"
             href="#"
-            features={[
-              'The 240-page ebook',
-              'Figma icon templates',
-              'Community access',
-            ]}
+            features={['Billed Annually', 'Figma icon templates', 'Community access']}
+          />
+          <Plan
+            name="Quarterly"
+            description="Voluntaria's SafeHarbor Private Membership Emergency Support & Retreat Contract (billed quarterly)."
+            price="440"
+            href="#"
+            features={['Billed Quarterly', 'Figma icon templates', 'Community access']}
           />
           <Plan
             featured
-            name="Complete"
-            description="Everything icon resource you could ever ask for."
-            price="229"
+            name="Monthly"
+            description="Voluntaria's SafeHarbor Private Membership Emergency Support & Retreat Contract (billed monthly)."
+            price="166"
             href="#"
             features={[
-              'The 240-page ebook',
+              'Billed Monthly',
               'Figma icon templates',
-              'Over an hour of screencasts',
-              'Weekly icon teardowns',
               'Community access',
+              'Lorem ipsum dolor imet',
+              'Insidio usurpoerus monsanto',
+            ]}
+          />
+          <Plan
+            name="Multi-year"
+            description="Voluntaria's SafeHarbor Private Membership Emergency Support & Retreat Contract (billed at end of term). 10% to 50% discount depending on number of membership years purchased in advance. "
+            price="2880+"
+            href="#"
+            features={[
+              'Each term',
+              'Figma icon templates',
+              'Community access',
+              'Lorem ipsum dolor imet',
+              'Insidio usurpoerus monsanto',
             ]}
           />
         </div>

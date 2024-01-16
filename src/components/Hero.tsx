@@ -55,7 +55,7 @@ export function Hero() {
             </h1>
             <p className="mt-4 text-3xl text-slate-600">
               In moments of crisis when the future seems unsure, Voluntaria&apos;s SafeHarbor Private Membership Emergency Support Plan
-              emerges as your Florida oak forest retreat to gather together and
+              emerges as your Florida forest retreat to gather together and
               support one another.
             </p>
             <div className="mt-8 flex gap-4">

@@ -1,12 +1,9 @@
 import { Author } from '@/components/Author'
 import { Footer } from '@/components/Footer'
-import { FreeChapters } from '@/components/FreeChapters'
 import { Hero } from '@/components/Hero'
+import { NavigationBar } from '@/components/NavigationBar'
 import { Introduction } from '@/components/Introduction'
-import { NavBar } from '@/components/NavBar'
 import { Pricing } from '@/components/Pricing'
-import { Resources } from '@/components/Resources'
-import { Screencasts } from '@/components/Screencasts'
 import { ClickableOverview } from '@/components/ClickableOverview'
 import { Testimonial } from '@/components/Testimonial'
 import { Testimonials } from '@/components/Testimonials'
@@ -25,19 +22,20 @@ export default function Home() {
     <>
       <Hero />
       <Introduction />
-      <NavBar />
+      <NavigationBar />
       <ClickableOverview />
+
       <Testimonial
         id="testimonial-from-kevin-beamish"
         author={{
-          name: 'Kevin Beamish',
+          name: 'Satori33',
           role: 'Voluntaria Co-founder',
           image: avatarImage1,
         }}
       >
         <p>
-          “My dream of raising my family in a secluded retreat may be realized
-          within this community.”
+          &ldquo;My dream of raising my family in aself-sufficient,
+          freedom-focused community may be realized within Voluntaria.&rdquo;
         </p>
       </Testimonial>
       <Ethos />
@@ -50,15 +48,18 @@ export default function Home() {
         }}
       >
         <p>
-          “I&apos;ve been involved in several community and co-living
-          situations, and this is by far the most exciting project with the most
-          opportunity that I&apos;ve ever been privileged to be a part of.”
+          &ldquo;I have been heavily involved in one residential community and
+          have researched a lot of others. I have seen a lot of what works and
+          what doesn&apos;t. Being founder of Voluntaria it&apos;s extremely
+          exciting to work on a project where we take the working bits and
+          create solid voluntaryist solutions to the bits that have experienced
+          that did not work well.&rdquo;
         </p>
       </Testimonial>
       <Benefits />
       <figure className="mx-5 mt-16">
         <Image
-          className="aspect-video rounded-xl bg-gray-50 object-cover z-0"
+          className="z-0 aspect-video rounded-xl bg-gray-50 object-cover"
           src={managementAndTechImage}
           alt=""
         />
@@ -67,14 +68,18 @@ export default function Home() {
             className="mt-0.5 h-5 w-5 flex-none text-gray-300"
             aria-hidden="true"
           />
-          Our members are trained (and train others) in the use and deployment of cryptocurrencies and NFTs.
+          Our members are trained (and train others) in the use and deployment
+          of cryptocurrencies and NFTs.
         </figcaption>
       </figure>
       <ManagementTechSection />
       <EmergencyProtocols />
       <Pricing />
-      <Testimonials />
-      <Author />
+      <div>{/* Pricing Support */}</div>
+      <div>{/* Legal / Ethics */}</div>
+      <div>{/* Conclusion */}</div>
+      {/* <Testimonials />
+      <Author /> */}
       <Footer />
     </>
   )

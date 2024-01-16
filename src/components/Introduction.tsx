@@ -16,7 +16,7 @@ export function Introduction() {
           Retreat
         </p>
         <p className="mt-4">
-          Our private 52 Acre community is your sanctuary, a place where members
+          Our private 52-acre community is your sanctuary, a place where members
           find strength and connection, ready to face challenges as one.
         </p>
         <ul role="list" className="mt-8 space-y-3">

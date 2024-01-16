@@ -8,9 +8,9 @@ import { SectionHeading } from '@/components/SectionHeading'
 
 const clickableOverviewTopics = {
   'The Voluntaria Community Ethos and Membership': {
-    'Introduction: Preamble': 1,
+    'Introduction: ': 1,
     'Limited Membership and Personalized Categorization': 15,
-    'Community Participation': 20,
+    'Community Participation, Building, and Skill Sharing': 20,
   },
   'Membership Benefits, Access Rights, and Resource Sharing': {
     'Annual Retreat and Sanctuary': 21,

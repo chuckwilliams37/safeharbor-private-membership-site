@@ -17,7 +17,7 @@ const LandingPage: React.FC = () => {
           </h1>
           <p className="mb-6">
             In moments of crisis when the future seems unsure, SafeHarbor
-            emerges as your Florida oak forest retreat to gather together and
+            emerges as your Florida forest retreat to gather together and
             support one another.
           </p>
           <button className="rounded bg-blue-600 px-6 py-2 font-bold text-white transition duration-300 hover:bg-blue-700">
