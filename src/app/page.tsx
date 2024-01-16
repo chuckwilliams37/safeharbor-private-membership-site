@@ -34,7 +34,7 @@ export default function Home() {
         }}
       >
         <p>
-          &ldquo;My dream of raising my family in aself-sufficient,
+          &ldquo;My dream of raising my family in a self-sufficient,
           freedom-focused community may be realized within Voluntaria.&rdquo;
         </p>
       </Testimonial>
