@@ -114,14 +114,14 @@ export function Pricing() {
     >
       <Container>
         <SectionHeading number="3" id="pricing-title">
-          Pricing PLACEHOLDER
+          Pricing
         </SectionHeading>
         <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
           Pick your package
         </p>
         <p className="mt-4 max-w-xl text-lg tracking-tight text-slate-600">
           SafeHarbor membership is available in annual memberships, with heavy
-          (partially refundable) discounts applied to mult-year purchases. so
+          (partially refundable) discounts applied to multi-year purchases. so
           you can pick the one that&apos;s right for you.
         </p>
       </Container>

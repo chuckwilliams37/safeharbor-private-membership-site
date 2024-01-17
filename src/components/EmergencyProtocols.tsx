@@ -33,7 +33,7 @@ const features = [
   {
     name: 'Preparedness Information and Tools',
     description:
-      'SafeHarbor will provide essential tools and information to help members locate the property and understand the community&apos;s resources, empowering them with the knowledge to confidently navigate any challenges we may face.',
+      "SafeHarbor will provide essential tools and information to help members locate the property and understand the community's resources, empowering them with the knowledge to confidently navigate any challenges we may face.",
     icon: InformationCircleIcon,
   },
 ]
