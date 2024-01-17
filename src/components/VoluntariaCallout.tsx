@@ -11,7 +11,9 @@ import {
   ChevronUpIcon,
 } from '@heroicons/react/20/solid'
 
-import dynamic from 'next/dynamic'
+import backgroundImage from '@/images/camping-in-the-oaks-002.png' 
+import voluntariaLogo from '@/images/VoluntariaLogo_DropShadow.png'
+import Image from 'next/image';
 
 // const Dialog = dynamic(() => import('@headlessui/react'), {
 //   ssr: false,
@@ -68,6 +70,21 @@ export default function VoluntariaCallout() {
 
   return (
     <div className="relative isolate overflow-hidden bg-green-600 py-24 sm:py-32">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-[-1] h-full w-full overflow-hidden">
+        <Image
+          src={backgroundImage}
+          alt="Background"
+          className="h-full w-full object-cover opacity-50 blur-sm" // Adds a blur effect to the image
+        />
+      </div>
+      <div className="absolute right-8 top-0 mt-8 h-24 w-24 lg:right-24 lg:mt-36 lg:h-96 lg:w-96 ">
+        <Image
+          src={voluntariaLogo}
+          alt="Voluntaria logo"
+          className="object-cover"
+        />
+      </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Questions */}
         <div className="mx-auto max-w-2xl lg:mx-0">
@@ -78,7 +95,7 @@ export default function VoluntariaCallout() {
                   className="h-7 w-5 flex-none text-green-400"
                   aria-hidden="true"
                 />
-                <span className="text-stone-300">{question.name}</span>
+                <span className="text-white">{question.name}</span>
               </div>
             ))}
           </div>
@@ -89,7 +106,7 @@ export default function VoluntariaCallout() {
             If so, Voluntaria might be right for you!
             <button
               onClick={openModal}
-              className="text-indigo-300 hover:text-indigo-400 focus:outline-none focus:ring focus:ring-indigo-300"
+              className="text-green-300 hover:text-green-400 focus:ring-green-300"
             >
               *{' '}
             </button>
@@ -97,10 +114,10 @@ export default function VoluntariaCallout() {
         </div>
 
         {/* Side Effects */}
-        <div className="mt-10 text-sm leading-6">
+        <div className="mt-10 border border-slate-500 bg-slate-800 bg-opacity-50 text-sm leading-6 p-6">
           <button
             onClick={() => setIsCollapsed(!isCollapsed)}
-            className="text-gray-300 hover:text-gray-400 focus:outline-none focus:ring focus:ring-gray-300"
+            className="text-white hover:text-green-400 focus:ring-gray-300"
           >
             *Side effects may include:{' '}
             {isCollapsed ? (
@@ -109,8 +126,14 @@ export default function VoluntariaCallout() {
               <ChevronUpIcon className="inline-block h-4 w-4" />
             )}
           </button>
+
+          <div
+            className={`${
+              isCollapsed ? 'max-h-0' : 'max-h-[1000px]' // Set a max height large enough to contain the content
+            } overflow-hidden transition-all duration-700 ease-in-out mt-4`}
+          >
           <ul
-            className={`${isCollapsed ? 'hidden' : 'block'} mt-4 text-gray-500`}
+            className='text-white'
           >
             {sideEffects.map((effect, index) => (
               <li key={index} className="py-1">
@@ -119,6 +142,7 @@ export default function VoluntariaCallout() {
             ))}
           </ul>
         </div>
+        </div>
       </div>
       {/* Modal */}
       <Dialog
@@ -126,7 +150,7 @@ export default function VoluntariaCallout() {
         onClose={closeModal}
         className="fixed inset-0 z-10 overflow-y-auto"
       >
-        <div className="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+        <div className="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0 ">
           <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
             <div className="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
               <div className="sm:flex sm:items-start">
@@ -150,7 +174,7 @@ export default function VoluntariaCallout() {
             <div className="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
               <button
                 type="button"
-                className="inline-flex w-full justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:ml-3 sm:w-auto sm:text-sm"
+                className="inline-flex w-full justify-center rounded-md border border-transparent bg-green-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 sm:ml-3 sm:w-auto sm:text-sm"
                 onClick={closeModal}
               >
                 Close

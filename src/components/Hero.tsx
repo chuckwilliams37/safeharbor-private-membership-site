@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Button } from '@/components/Button'
 import { GridPattern } from '@/components/GridPattern'
 import { StarRating } from '@/components/StarRating'
-import coverImage from '@/images/chuck_williams_Aerial_view_of_a_serene_oak_forest_camping_retre_b1dbc57f-666a-41d9-955e-6bd0157e9770.png';
+import coverImage from '@/images/newsletter_cover_photo.png';
 
 function Testimonial() {
   return (

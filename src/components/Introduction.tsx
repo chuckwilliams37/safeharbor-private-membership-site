@@ -85,8 +85,9 @@ export function Introduction() {
         </p>
         <p className="mt-10">
           <Link
-            href="#free-chapters"
+            href="https://voluntaria.ck.page/products/voluntarias-safeharbor-private-newsletter"
             className="text-base font-medium text-green-600 hover:text-green-800"
+            data-commerce
           >
             Get our updates straight to your inbox{' '}
             <span aria-hidden="true">&rarr;</span>
