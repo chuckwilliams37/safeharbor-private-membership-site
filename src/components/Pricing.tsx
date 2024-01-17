@@ -94,10 +94,11 @@ function Plan({
         <Button
           href={href}
           color={featured ? 'white' : 'slate'}
-          className="mt-8"
-          aria-label={`Get started with the ${name} plan for $${price}`}
+          className="convertkit-button mt-8"
+          aria-label={`Get notified when the ${name} plan for $${price} is available!`}
+          data-commerce
         >
-          Get started
+          Notify me!
         </Button>
       </div>
     </div>
@@ -112,7 +113,7 @@ export function Pricing() {
       className="scroll-mt-14 pb-8 pt-16 sm:scroll-mt-32 sm:pb-10 sm:pt-20 lg:pb-16 lg:pt-32"
     >
       <Container>
-        <SectionHeading number="4" id="pricing-title">
+        <SectionHeading number="3" id="pricing-title">
           Pricing PLACEHOLDER
         </SectionHeading>
         <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
@@ -130,42 +131,30 @@ export function Pricing() {
             name="Annual"
             description="Voluntaria's SafeHarbor Private Membership Emergency Support & Retreat Contract (billed annually)."
             price="1600"
-            href="#"
-            features={['Billed Annually', 'Figma icon templates', 'Community access']}
-          />
+            href="https://voluntaria.ck.page/products/voluntarias-safeharbor-private-newsletter"
+            features={[]}
+            />
           <Plan
             name="Quarterly"
             description="Voluntaria's SafeHarbor Private Membership Emergency Support & Retreat Contract (billed quarterly)."
             price="440"
-            href="#"
-            features={['Billed Quarterly', 'Figma icon templates', 'Community access']}
-          />
+            href="https://voluntaria.ck.page/products/voluntarias-safeharbor-private-newsletter"
+            features={[]}
+            />
           <Plan
             featured
             name="Monthly"
             description="Voluntaria's SafeHarbor Private Membership Emergency Support & Retreat Contract (billed monthly)."
             price="166"
-            href="#"
-            features={[
-              'Billed Monthly',
-              'Figma icon templates',
-              'Community access',
-              'Lorem ipsum dolor imet',
-              'Insidio usurpoerus monsanto',
-            ]}
-          />
+            href="https://voluntaria.ck.page/products/voluntarias-safeharbor-private-newsletter"
+            features={[]}
+            />
           <Plan
             name="Multi-year"
             description="Voluntaria's SafeHarbor Private Membership Emergency Support & Retreat Contract (billed at end of term). 10% to 50% discount depending on number of membership years purchased in advance. "
             price="2880+"
-            href="#"
-            features={[
-              'Each term',
-              'Figma icon templates',
-              'Community access',
-              'Lorem ipsum dolor imet',
-              'Insidio usurpoerus monsanto',
-            ]}
+            href="https://voluntaria.ck.page/products/voluntarias-safeharbor-private-newsletter"
+            features={[]}
           />
         </div>
       </div>

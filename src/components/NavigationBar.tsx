@@ -5,21 +5,21 @@ import { Popover } from '@headlessui/react'
 import clsx from 'clsx'
 
 const sections = [
-  {
-    id: 'membership-plan-overview',
-    title: (
-      <>
-        <span className="hidden lg:inline">Clickable Overview</span>
-        <span className="lg:hidden">Contract Sections</span>
-      </>
-    ),
-  },
+  // {
+  //   id: 'membership-plan-overview',
+  //   title: (
+  //     <>
+  //       <span className="hidden lg:inline">Clickable Overview</span>
+  //       <span className="lg:hidden">Contract Sections</span>
+  //     </>
+  //   ),
+  // },
   { id: 'ethos', title: 'Intro & Ethos' },
   { id: 'benefits', title: 'Rights & Benefits' },
   { id: 'tech', title: 'Mgmt & Tech' },
   { id: 'protocols', title: 'Emergency Protocols' },
   { id: 'pricing', title: 'Pricing' },
-  { id: 'legal', title: 'Legal & Ethics' },
+  // { id: 'legal', title: 'Legal & Ethics' },
 ]
 
 function MenuIcon({

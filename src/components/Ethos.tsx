@@ -19,7 +19,7 @@ export function Ethos() {
       className="scroll-mt-14 py-16 sm:scroll-mt-32 sm:py-20 lg:py-32"
     >
       <Container>
-        <SectionHeading number="2">
+        <SectionHeading number="1">
           SafeHarbor: Your Commitment to a Life of Voluntaryism and Resilience
         </SectionHeading>
 

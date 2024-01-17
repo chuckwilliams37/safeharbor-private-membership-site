@@ -66,7 +66,7 @@ export function Benefits() {
       className="scroll-mt-14 py-12 sm:scroll-mt-32 sm:py-16 "
     >
       <Container>
-        <SectionHeading number="3">
+        <SectionHeading number="2">
           Membership Benefits, Access Rights, and Resource Sharing
         </SectionHeading>
         <div className="overflow-hidden bg-white py-12 sm:py-16">

@@ -61,7 +61,7 @@ export default function ManagementTechSection() {
         className="scroll-mt-14 py-4 sm:scroll-mt-32 sm:py-20 lg:py-8"
       >
         <Container>
-          <SectionHeading number="4" className='text-white' >
+          <SectionHeading number="3" className='text-white' >
             Private Membership Plan Management and Technological Integration
           </SectionHeading>
           <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-32">

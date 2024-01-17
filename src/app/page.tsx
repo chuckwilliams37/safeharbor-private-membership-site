@@ -16,14 +16,20 @@ import Image from 'next/image'
 import managementAndTechImage from '@/images/bitcoin-blockchain-camper-oak-forest.png'
 import ManagementTechSection from '@/components/ManagementTechSection'
 import EmergencyProtocols from '@/components/EmergencyProtocols'
+import VoluntariaCallout from '@/components/VoluntariaCallout'
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <script src="https://voluntaria.ck.page/commerce.js" async defer></script>
+      </Head>
+      <VoluntariaCallout />
       <Hero />
       <Introduction />
       <NavigationBar />
-      <ClickableOverview />
+      {/* <ClickableOverview /> */}
 
       <Testimonial
         id="testimonial-from-kevin-beamish"

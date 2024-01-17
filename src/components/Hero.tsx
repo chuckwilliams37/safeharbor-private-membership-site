@@ -54,18 +54,27 @@ export function Hero() {
               Fortify Your Freedom
             </h1>
             <p className="mt-4 text-3xl text-slate-600">
-              In moments of crisis when the future seems unsure, Voluntaria&apos;s SafeHarbor Private Membership Emergency Support Plan
-              emerges as your Florida forest retreat to gather together and
+              In moments of crisis when the future seems unsure,
+              Voluntaria&apos;s SafeHarbor Private Membership Emergency Support
+              Plan emerges as your Florida forest retreat to gather together and
               support one another.
             </p>
             <div className="mt-8 flex gap-4">
-              <Button href="#join-today" color="green">
+              <Button
+                href="https://voluntaria.ck.page/products/voluntarias-safeharbor-private-newsletter"
+                color="green"
+                aria-label={`Get notified when the Safeharbor plan is available!`}
+                className="convertkit-button"
+                data-commerce
+                >
                 Join SafeHarbor Today
               </Button>
               <Button
-                href="#newsletter-sign-up"
+                href="https://voluntaria.ck.page/products/voluntarias-safeharbor-private-newsletter"
+                className="convertkit-button"
                 variant="outline"
                 color="green"
+                data-commerce
               >
                 Newsletter Sign-up
               </Button>

@@ -42,7 +42,7 @@ export default function EmergencyProtocols() {
   return (
     <div id="protocols" className="overflow-hidden bg-white py-24 sm:py-32">
       <Container>
-        <SectionHeading number="5" className='my-12'>
+        <SectionHeading number="4" className='my-12'>
           Emergency Protocols
         </SectionHeading>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
