@@ -19,14 +19,28 @@ import EmergencyProtocols from '@/components/EmergencyProtocols'
 import VoluntariaCallout from '@/components/VoluntariaCallout'
 import Head from 'next/head'
 
-export default function Home() {
+import { client } from "../../sanity/lib/client";
+
+
+export default async function Home({
+  params: { inviteCode },
+}: {
+  params: { inviteCode: string }
+}) {
+
+const query = `*[_type == "hero"][0]`
+const heroData = await client.fetch(query)
+
+console.log("heroData", heroData)
   return (
     <>
       <Head>
         <script src="https://voluntaria.ck.page/commerce.js" async defer></script>
       </Head>
-      <VoluntariaCallout />
-      <Hero />
+      {/* ************************************** ABOVE THIS LINE IS COMPLETE ******************************************* */}
+      <Hero data={heroData}  />
+      {/* ************************************** BELOW THIS LINE IS UNEDITED 2024.05.21.1834 ******************************************* */}
+      {/* <VoluntariaCallout /> */}
       <Introduction />
       <NavigationBar />
       {/* <ClickableOverview /> */}

@@ -4,31 +4,44 @@ import { Button } from '@/components/Button'
 import { GridPattern } from '@/components/GridPattern'
 import { StarRating } from '@/components/StarRating'
 import coverImage from '@/images/newsletter_cover_photo.png';
+import {PortableText, PortableTextReactComponents} from '@portabletext/react'
 
-function Testimonial() {
-  return (
-    <figure className="relative mx-auto max-w-md text-center lg:mx-0 lg:text-left">
-      <div className="flex justify-center text-green-600 lg:justify-start">
-        <StarRating />
-      </div>
-      <blockquote className="mt-2">
-        <p className="font-display text-xl font-medium text-slate-900">
-          “Voluntaria is redefining my understanding of community. It&apos;s the
-          sanctuary where I truly connect with the land and others who share my
-          vision of freedom. Safeharbor is one way we can share this with others.”
-        </p>
-      </blockquote>
-      <figcaption className="mt-2 text-sm text-slate-500">
-        <strong className="font-semibold text-green-600 before:content-['—_']">
-          Chuck Williams
-        </strong>
-        , Co-Founder of Voluntaria
-      </figcaption>
-    </figure>
-  )
-}
 
-export function Hero() {
+export function Hero ({ data }) {
+
+  // console.log("Hero.data", data.initialPromptHeading);
+
+  // data.initialPromptHeading.map( (block, index) => {
+    // console.log("block.children", block.children);
+  // });
+  // {
+  //   span : ({children}) => (
+  //     <div key={block.key} className="mt-4 text-2xl text-slate-600" children={children} />
+  //   ),
+  //   strong: ({children}) => (
+  //     <h2 className="text-lg text-primary text-purple-700">{children}</h2>
+  //   ),
+  //   highlight: ({children}) => (
+  //     <h2 className="text-lg text-primary text-purple-700">{children}</h2>
+  //   )
+  // }
+  const components:Partial<PortableTextReactComponents> = {
+    block: {
+      // Ex. 1: customizing common block types
+      p: ({ children }) => <p className="text-xl text-slate-600">{children}</p>,
+      undefined: ({ children }) => <p className="text-xl text-slate-600">{children}</p>,
+      h1: ({ children }) => <h1 className="text-4xl font-extrabold text-green-800">{children}</h1>,
+      h2: ({ children }) => <h2 className="text-2xl font-extrabold text-green-800">{children}</h2>,
+      h3: ({ children }) => <h3 className="text-xl font-extrabold text-green-800">{children}</h3>,
+      blockquote: ({ children }) => <blockquote className="border-l-purple-500">{children}</blockquote>,
+
+      // Ex. 2: rendering custom styles
+      customHeading: ({ children }) => (
+        <h2 className="text-lg text-primary text-purple-700">{children}</h2>
+      ),
+    },
+  }
+
   return (
     <header className="overflow-hidden bg-slate-100 lg:bg-transparent lg:px-5">
       <div className="mx-auto grid max-w-6xl grid-cols-1 grid-rows-[auto_1fr] gap-y-16 pt-16 md:pt-20 lg:grid-cols-12 lg:gap-y-20 lg:px-3 lg:pb-36 lg:pt-20 xl:py-32">
@@ -44,22 +57,19 @@ export function Hero() {
             <Image className="w-full" src={coverImage} alt="" priority />
           </div>
         </div>
+
         <div className="relative px-4 sm:px-6 lg:col-span-7 lg:pb-14 lg:pl-16 lg:pr-0 xl:pl-20">
-          <div className="hidden lg:absolute lg:-top-32 lg:bottom-0 lg:left-[-100vw] lg:right-[-100vw] lg:block lg:bg-slate-100" />
-          <Testimonial />
+          <div className="" />
+          <p className="mt-4 text-xl text-slate-600">{data.pageOpeningLine}</p>
         </div>
         <div className="bg-white pt-16 lg:col-span-7 lg:bg-transparent lg:pl-16 lg:pt-0 xl:pl-20">
           <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-0">
-            <h1 className="font-display text-5xl font-extrabold text-slate-900 sm:text-6xl">
-              Fortify Your Freedom
-            </h1>
-            <p className="mt-4 text-3xl text-slate-600">
-              In moments of crisis when the future seems unsure,
-              Voluntaria&apos;s SafeHarbor Private Membership Emergency Support
-              Plan emerges as your Florida forest retreat to gather together and
-              support one another.
-            </p>
+              <PortableText value={data.initialPromptHeading} components={components} />              
             <div className="mt-8 flex gap-4">
+              <PortableText value={data.heroHeading} components={components} />              
+              {/* <h1 className="text-4xl font-extrabold text-green-900">{data.heroHeading} </h1> */}
+            </div>
+            {/* <div className="mt-8 flex gap-4">
               <Button
                 href="https://voluntaria.ck.page/products/voluntarias-safeharbor-private-newsletter"
                 color="green"
@@ -78,10 +88,11 @@ export function Hero() {
               >
                 Newsletter Sign-up
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
     </header>
   )
 }
+{/* ************************************** ABOVE THIS LINE IS COMPLETE 2024.05.21.2314 ******************************************* */}

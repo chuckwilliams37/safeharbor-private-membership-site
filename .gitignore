@@ -13,8 +13,14 @@
 /.next/
 /out/
 
+# sanity.io
+/.sanity/
+
+
 # production
 /build
+/dist
+
 
 # misc
 .DS_Store
