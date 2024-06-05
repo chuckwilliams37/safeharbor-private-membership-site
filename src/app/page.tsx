@@ -44,7 +44,6 @@ console.log("heroData", heroData)
       <Introduction />
       <NavigationBar />
       {/* <ClickableOverview /> */}
-
       <Testimonial
         id="testimonial-from-kevin-beamish"
         author={{

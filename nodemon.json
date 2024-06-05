@@ -1,0 +1,4 @@
+{
+    "watch": ["pages", "components", "lib", "styles", "public","app","src"],
+    "ext": "js,json,ts,tsx"
+  }
