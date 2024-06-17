@@ -31,7 +31,12 @@ export default async function Home({
 const query = `*[_type == "hero"][0]`
 const heroData = await client.fetch(query)
 
-console.log("heroData", heroData)
+const introQuery = `*[_type == "intro"][0]`
+const introData = await client.fetch(introQuery)
+
+console.log("introData: ", introData)
+
+// console.log("heroData", heroData)
   return (
     <>
       <Head>
@@ -39,9 +44,11 @@ console.log("heroData", heroData)
       </Head>
       {/* ************************************** ABOVE THIS LINE IS COMPLETE ******************************************* */}
       <Hero data={heroData}  />
+      {/* ************************************** BELOW THIS LINE IS IN PROGRESS 2024.06.16.2018 ******************************************* */}
+      <Introduction data={introData} />
       {/* ************************************** BELOW THIS LINE IS UNEDITED 2024.05.21.1834 ******************************************* */}
+      
       {/* <VoluntariaCallout /> */}
-      <Introduction />
       <NavigationBar />
       {/* <ClickableOverview /> */}
       <Testimonial

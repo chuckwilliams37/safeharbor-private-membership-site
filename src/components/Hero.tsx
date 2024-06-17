@@ -7,7 +7,7 @@ import coverImage from '@/images/newsletter_cover_photo.png';
 import {PortableText, PortableTextReactComponents} from '@portabletext/react'
 
 
-export function Hero ({ data }) {
+export function Hero ({ data }: { data: any }) {
 
   // console.log("Hero.data", data.initialPromptHeading);
 
@@ -67,7 +67,6 @@ export function Hero ({ data }) {
               <PortableText value={data.initialPromptHeading} components={components} />              
             <div className="mt-8 ">
               <PortableText value={data.heroHeading} components={components} />              
-              {/* <h1 className="text-4xl font-extrabold text-green-900">{data.heroHeading} </h1> */}
             </div>
             {/* <div className="mt-8 flex gap-4">
               <Button

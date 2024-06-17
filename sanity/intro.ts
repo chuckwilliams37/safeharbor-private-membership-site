@@ -7,14 +7,26 @@ export default defineType({
   type: 'document',
   fields: [
     defineField({
-      name: 'heading',
-      title: 'Heading',
+      name: 'introSectionOpeningLine',
+      title: 'Intro Section Opening Line',
       type: 'string',
     }),
     defineField({
-      name: 'introText',
-      title: 'Intro Text',
-      type: 'text',
+      name: 'introSectionBody',
+      title: 'Intro Section Body',
+      type: 'array',
+      of: [
+        {
+          type: 'block',
+          marks: {
+            decorators: [
+              { title: 'Strong', value: 'strong' },
+              { title: 'Emphasis', value: 'em' },
+              { title: 'Highlight', value: 'highlight' }
+            ]
+          }
+        }
+      ]
     }),
   ],
 })
