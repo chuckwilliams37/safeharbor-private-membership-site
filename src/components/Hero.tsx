@@ -68,26 +68,6 @@ export function Hero ({ data }: { data: any }) {
             <div className="mt-8 ">
               <PortableText value={data.heroHeading} components={components} />              
             </div>
-            {/* <div className="mt-8 flex gap-4">
-              <Button
-                href="https://voluntaria.ck.page/products/voluntarias-safeharbor-private-newsletter"
-                color="green"
-                aria-label={`Get notified when the Safeharbor plan is available!`}
-                className="convertkit-button"
-                data-commerce
-                >
-                Join SafeHarbor Today
-              </Button>
-              <Button
-                href="https://voluntaria.ck.page/products/voluntarias-safeharbor-private-newsletter"
-                className="convertkit-button"
-                variant="outline"
-                color="green"
-                data-commerce
-              >
-                Newsletter Sign-up
-              </Button>
-            </div> */}
           </div>
         </div>
       </div>

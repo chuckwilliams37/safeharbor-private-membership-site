@@ -1,3 +1,5 @@
+'use client';
+
 import { Author } from '@/components/Author'
 import { Footer } from '@/components/Footer'
 import { Hero } from '@/components/Hero'
@@ -27,6 +29,7 @@ export default async function Home({
 }: {
   params: { inviteCode: string }
 }) {
+  
 
 const query = `*[_type == "hero"][0]`
 const heroData = await client.fetch(query)
@@ -42,12 +45,13 @@ console.log("introData: ", introData)
       <Head>
         <script src="https://voluntaria.ck.page/commerce.js" async defer></script>
       </Head>
-      {/* ************************************** ABOVE THIS LINE IS COMPLETE ******************************************* */}
       <Hero data={heroData}  />
-      {/* ************************************** BELOW THIS LINE IS IN PROGRESS 2024.06.16.2018 ******************************************* */}
+      <p>2024.07.27.1846</p>
       <Introduction data={introData} />
-      {/* ************************************** BELOW THIS LINE IS UNEDITED 2024.05.21.1834 ******************************************* */}
       
+      {/* ************************************** ABOVE THIS LINE IS COMPLETE ******************************************* */}
+      {/* ************************************** BELOW THIS LINE IS IN PROGRESS 2024.06.16.2018 ******************************************* */}
+      {/* ************************************** BELOW THIS LINE IS UNEDITED 2024.05.21.1834 ******************************************* */}
       {/* <VoluntariaCallout /> */}
       <NavigationBar />
       {/* <ClickableOverview /> */}
