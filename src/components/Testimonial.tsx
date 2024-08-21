@@ -9,10 +9,12 @@ export function Testimonial({
   id,
   author,
   children,
+  hasStars = true,
 }: {
   id: string
   author: { name: string; role: string; image: ImageProps['src'] }
   children: React.ReactNode
+  hasStars?: boolean
 }) {
   return (
     <aside
@@ -25,9 +27,11 @@ export function Testimonial({
       </div>
       <Container size="xs" className="relative">
         <figure>
-          <div className="flex text-slate-900 sm:justify-center">
-            <StarRating />
-          </div>
+          {hasStars && (
+            <div className="flex text-slate-900 sm:justify-center">
+              <StarRating />
+            </div>
+          )}
           <blockquote className="mt-10 font-display text-4xl font-medium tracking-tight text-slate-900 sm:text-center">
             {children}
           </blockquote>

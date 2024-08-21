@@ -1,14 +1,14 @@
-'use client';
+'use client'
 
-import { Author } from '@/components/Author'
+// import { Author } from '@/components/Author'
 import { Footer } from '@/components/Footer'
 import { Hero } from '@/components/Hero'
 import { NavigationBar } from '@/components/NavigationBar'
 import { Introduction } from '@/components/Introduction'
 import { Pricing } from '@/components/Pricing'
-import { ClickableOverview } from '@/components/ClickableOverview'
+// import { ClickableOverview } from '@/components/ClickableOverview'
 import { Testimonial } from '@/components/Testimonial'
-import { Testimonials } from '@/components/Testimonials'
+// import { Testimonials } from '@/components/Testimonials'
 import avatarImage1 from '@/images/avatars/kevin_fake_ai_sketch_001.png'
 import avatarImage2 from '@/images/chad-cameron.png'
 import { Ethos } from '@/components/Ethos'
@@ -18,37 +18,38 @@ import Image from 'next/image'
 import managementAndTechImage from '@/images/bitcoin-blockchain-camper-oak-forest.png'
 import ManagementTechSection from '@/components/ManagementTechSection'
 import EmergencyProtocols from '@/components/EmergencyProtocols'
-import VoluntariaCallout from '@/components/VoluntariaCallout'
+// import VoluntariaCallout from '@/components/VoluntariaCallout'
 import Head from 'next/head'
 
-import { client } from "../../sanity/lib/client";
-
+// import { client } from '../../sanity/lib/client'
 
 export default async function Home({
   params: { inviteCode },
 }: {
   params: { inviteCode: string }
 }) {
-  
+  // const query = `*[_type == "hero"][0]`
+  // const heroData = await client.fetch(query)
 
-const query = `*[_type == "hero"][0]`
-const heroData = await client.fetch(query)
+  // const introQuery = `*[_type == "intro"][0]`
+  // const introData = await client.fetch(introQuery)
 
-const introQuery = `*[_type == "intro"][0]`
-const introData = await client.fetch(introQuery)
+  // console.log('introData: ', introData)
 
-console.log("introData: ", introData)
-
-// console.log("heroData", heroData)
+  // console.log("heroData", heroData)
   return (
     <>
       <Head>
-        <script src="https://voluntaria.ck.page/commerce.js" async defer></script>
+        <script
+          src="https://voluntaria.ck.page/commerce.js"
+          async
+          defer
+        ></script>
       </Head>
-      <Hero data={heroData}  />
-      <p>2024.07.27.1846</p>
-      <Introduction data={introData} />
-      
+      <Hero />
+      {/* <p>2024.07.27.1846</p> */}
+      <Introduction />
+
       {/* ************************************** ABOVE THIS LINE IS COMPLETE ******************************************* */}
       {/* ************************************** BELOW THIS LINE IS IN PROGRESS 2024.06.16.2018 ******************************************* */}
       {/* ************************************** BELOW THIS LINE IS UNEDITED 2024.05.21.1834 ******************************************* */}
@@ -58,14 +59,21 @@ console.log("introData: ", introData)
       <Testimonial
         id="testimonial-from-kevin-beamish"
         author={{
-          name: 'Satori33',
-          role: 'Voluntaria Co-founder',
+          name: 'Chad Cameron',
+          role: 'Voluntaria Co-Founder ',
           image: avatarImage1,
         }}
+        hasStars={false}
       >
+        <h2 className="font-bold">
+          Hi - I'm Chad Cameron, Co-Founder of Voluntaria.
+        </h2>
         <p>
-          &ldquo;My dream of raising my family in a self-sufficient,
-          freedom-focused community may be realized within Voluntaria.&rdquo;
+          My partners, Chuck and Santori and I co-founded Voluntaria to create a
+          safe haven from whatever crisis comes next.
+          <br />
+          <br />
+          And let me tell you - it was NOT easy.
         </p>
       </Testimonial>
       <Ethos />
