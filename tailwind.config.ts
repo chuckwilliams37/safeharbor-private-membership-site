@@ -4,6 +4,13 @@ import defaultTheme from 'tailwindcss/defaultTheme'
 export default {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
+    container: {
+      padding: '15px',
+      center: true,
+      screens: {
+        lg: '1224px',
+      },
+    },
     boxShadow: {
       sm: '0 2px 6px rgb(15 23 42 / 0.08)',
       md: '0 8px 8px rgb(15 23 42 / 0.05), 0 3px 6px rgb(15 23 42 / 0.05)',
