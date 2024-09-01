@@ -1,15 +1,15 @@
 import { Container } from '@/components/Container'
 import { SectionHeading } from './SectionHeading'
-import {
-  GlobeAltIcon,
-  UsersIcon,
-  HeartIcon,
-  UserGroupIcon,
-  ShieldCheckIcon,
-} from '@heroicons/react/20/solid'
+// import {
+//   GlobeAltIcon,
+//   UsersIcon,
+//   HeartIcon,
+//   UserGroupIcon,
+//   ShieldCheckIcon,
+// } from '@heroicons/react/20/solid'
 import tallStarryNight001 from '@/images/tall-starry-night-002.png'
 import Image from 'next/image'
-import Link from 'next/link'
+// import Link from 'next/link'
 
 export function Ethos() {
   return (
@@ -18,18 +18,18 @@ export function Ethos() {
       aria-labelledby="ethos-title"
       className="scroll-mt-14 py-16 sm:scroll-mt-32 sm:py-20 lg:py-32"
     >
-      <Container>
+      <Container size="lg">
         <SectionHeading number="1">
           Turning Setbacks into Success: The Birth of Voluntaria
         </SectionHeading>
 
-        <div className="relative bg-white">
+        <div className="relative mt-6 overflow-hidden rounded-3xl border-0 bg-white">
           <div className="mx-auto max-w-7xl lg:flex lg:justify-between lg:px-8 xl:justify-end">
             <div className="lg:flex lg:w-1/2 lg:shrink lg:grow-0 xl:absolute xl:inset-y-0 xl:right-1/2 xl:w-1/2">
               <div className="relative h-80 lg:-ml-8 lg:h-auto lg:w-full lg:grow xl:ml-0">
-                <div className="absolute left-0 top-0 z-30 h-80 w-full bg-gradient-to-b from-white from-30% to-transparent"></div>
+                {/* <div className="absolute left-0 top-0 z-30 h-80 w-full bg-gradient-to-b from-white from-30% to-transparent"></div> */}
                 <Image
-                  className="absolute inset-0 mb-[-100px] h-full w-full bg-gray-50 object-cover"
+                  className="absolute inset-0 mb-[-100px] h-full w-full bg-gray-50 object-cover "
                   src={tallStarryNight001}
                   alt="A group of people gathered around a campfire under a starry night sky in an oak forest."
                   layout="fill"

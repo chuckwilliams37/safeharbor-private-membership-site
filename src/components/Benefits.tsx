@@ -65,17 +65,22 @@ export function Benefits() {
       aria-labelledby="benefits-title"
       className="scroll-mt-14 py-12 sm:scroll-mt-32 sm:py-16 "
     >
-      <Container>
+      <Container size="lg">
         <SectionHeading number="2">
           Membership Benefits, Access Rights, and Resource Sharing
         </SectionHeading>
-        <div className="overflow-hidden bg-white py-12 sm:py-16">
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mt-6 overflow-hidden rounded-3xl bg-white">
+          <div className="mx-auto max-w-7xl">
             <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-              <div className="pr-8 pt-4">
+              <div className=" px-6 py-16 lg:px-8">
                 <div className="max-w-lg">
                   <h2 className="text-base font-semibold leading-7 text-green-600">
-                    Empower Your Tomorrow:
+                    I know what makes a community thrive OR fail - because we’ve
+                    lived it!*
+                    <br />
+                    *and we read the book (creating a life together) that talks
+                    about how how 90+% of communities fail within the first 5
+                    years and how to avoid the common mistakes.
                   </h2>
                   <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                     Exclusive Benefits of Joining SafeHarbor
@@ -87,7 +92,7 @@ export function Benefits() {
                     From annual getaways in nature to shared resources and
                     emergency preparedness, we&apos;ve got your back. It&apos;s
                     a place to learn, to share, and to be part of something
-                    special. 
+                    special.
                   </p>
                   <dl className="mt-10 space-y-8 text-base leading-7 text-gray-600">
                     {features.map((feature) => (
@@ -106,14 +111,15 @@ export function Benefits() {
                   </dl>
                 </div>
               </div>
-
-              <Image
-                src={campingScene}
-                alt="Camping in the oaks"
-                className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-                width={2432}
-                height={1442}
-              />
+              <div className="relative">
+                <Image
+                  src={campingScene}
+                  alt="Camping in the oaks"
+                  className="absolute h-full w-full object-cover shadow-xl ring-1 ring-gray-400/10"
+                  width={2432}
+                  height={1442}
+                />
+              </div>
             </div>
           </div>
         </div>
