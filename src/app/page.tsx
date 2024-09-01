@@ -21,6 +21,7 @@ import EmergencyProtocols from '@/components/EmergencyProtocols'
 // import VoluntariaCallout from '@/components/VoluntariaCallout'
 import Head from 'next/head'
 import { Container } from '@/components/Container'
+import { ListSection } from '@/components/ui/ListSection'
 
 // import { client } from '../../sanity/lib/client'
 
@@ -96,42 +97,39 @@ export default async function Home({
         </p>
       </Testimonial> */}
 
-      <section className="bg-white py-10">
-        <Container size="lg">
-          <h2 className="text-base font-semibold leading-7 text-green-600">
+      <ListSection
+        heading={
+          <>
+            {' '}
             We had to spend over a year looking at properties, sorting
             financing, dealing with legal hurdles and negotiating agreements.
             <br />
             But YOUR bugout planning is as easy as online shopping
-          </h2>
-          <p>
+          </>
+        }
+        description={
+          <>
             With Voluntaria's Safe Harbor Membership, you don't have to deal
             with everything we went through.
             <br />
             <b> You don't need to figure it all out on your own.</b>
-          </p>
-          <ul className="my-6 font-bold [&>li]:flex [&>li]:items-center [&>li]:gap-3 [&>li]:before:h-2 [&>li]:before:w-2 [&>li]:before:rounded-full [&>li]:before:bg-green-600">
-            <li>
-              You don't need to spend weeks driving across the country, shopping
-              for land
-            </li>
-            <li>
-              You don't need to find freedom minded business partners or
-              convince your friends to go in on land with you…and start from
-              scratch when they bail out
-            </li>
-            <li>
-              You don't need to figure out financing, or worry about your credit
-              score
-            </li>
-            <li>
-              You don't need to save for an impossibly-high down payment deposit
-            </li>
-            <li>You don't need to be tied down to land.</li>
-            <li>You don’t have to fix the wells.</li>
-            <li>You don’t have to bush hog the overgrown roads/trails.</li>
-          </ul>
-          <p>
+          </>
+        }
+        bullets={[
+          ` You don't need to spend weeks driving across the country, shopping
+            for land`,
+          `You don't need to find freedom minded business partners or convince
+            your friends to go in on land with you…and start from scratch when
+            they bail out`,
+          `You don't need to figure out financing, or worry about your credit
+            score`,
+          `You don't need to save for an impossibly-high down payment deposit`,
+          `You don't need to be tied down to land.`,
+          `You don’t have to fix the wells.`,
+          `You don’t have to bush hog the overgrown roads/trails.`,
+        ]}
+        descriptionAfterBullets={
+          <>
             You don't have to do any of it… <br />
             <span className="font-bold text-green-600">
               …We've got you covered.
@@ -143,11 +141,11 @@ export default async function Home({
               SHTF. Just like you have a home insurance policy in case there's a
               fire - we're here for when crisis strikes.
             </b>
-          </p>
-        </Container>
-      </section>
+          </>
+        }
+      />
       <Benefits />
-      <figure className="mx-5 mt-16">
+      {/* <figure className="mx-5 mt-16">
         <Image
           className="z-0 aspect-video rounded-xl bg-gray-50 object-cover"
           src={managementAndTechImage}
@@ -161,7 +159,7 @@ export default async function Home({
           Our members are trained (and train others) in the use and deployment
           of cryptocurrencies and NFTs.
         </figcaption>
-      </figure>
+      </figure> */}
       <ManagementTechSection />
       <EmergencyProtocols />
       <Pricing />
