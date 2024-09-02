@@ -19,10 +19,16 @@ export const ImageSection = ({
     <section className={`py-10 ${invertBg ? 'bg-white' : ''}`}>
       <Container size="lg">
         <div
-          className={`flex flex-col ${isReverse ? 'lg:flex-row-reverse' : ''} `}
+          className={`flex ${isReverse ? 'lg:flex-row-reverse' : 'lg:flex-row'}  flex-col gap-[24px]`}
         >
-          <NextImage src={imageSrc} alt="" width={1000} height={1000} />
-          <div>
+          <NextImage
+            src={imageSrc}
+            alt=""
+            width={1000}
+            height={1000}
+            className="w-2/4"
+          />
+          <div className="py-[24px]">
             <h2 className="text-base font-semibold leading-7 text-green-600">
               {heading}
             </h2>

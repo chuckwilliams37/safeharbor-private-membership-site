@@ -22,10 +22,14 @@ import EmergencyProtocols from '@/components/EmergencyProtocols'
 import Head from 'next/head'
 import { Container } from '@/components/Container'
 import { ListSection } from '@/components/ui/ListSection'
+import { ImageSection } from '@/components/ui/ImageSection'
+import { WhyUs } from '@/components/WhyUs'
+import { ReliableFood } from '@/components/ReliableFood'
+import { PerfectBalance } from '@/components/PerfectBalance'
 
 // import { client } from '../../sanity/lib/client'
 
-export default async function Home({
+export default function Home({
   params: { inviteCode },
 }: {
   params: { inviteCode: string }
@@ -145,6 +149,144 @@ export default async function Home({
         }
       />
       <Benefits />
+      <ImageSection
+        heading="Surround yourself with people who care enough to prepare"
+        isReverse={false}
+        imageSrc=""
+        invertBg={true}
+        description={
+          <>
+            Even if you never need to bugout…you can still connect with our
+            community of like-minded freedom loving preppers.
+            <br />
+            Everyone who joins the Voluntaria SHM program is like you. We're all
+            people who are concerned about the future, and care enough to do
+            something about it. We're all willing to invest in emergency
+            preparedness.
+            <br />
+            So if you're looking for community - join us on a group call. Create
+            friends and allies with the people who are taking action, just like
+            you.
+          </>
+        }
+      />
+      <ImageSection
+        heading="You can have your bugout plan finished by NEXT WEEK"
+        isReverse={true}
+        imageSrc=""
+        invertBg={false}
+        description={
+          <>
+            It doesn't need to take you years, like it did for us. And there's a
+            reason why we say "next week" and not "today". That because the most
+            important part of Voluntaria is that our community has a common set
+            of values.
+            <br />
+            So, we'll do a phone call with you first. Because, if you're a
+            social justice warrior who "identifies as a cat"…nothing personal it
+            just won’t be a good fit.
+            <br />
+            <b>
+              (Sorry…we're looking for like minded but I am sure there is a
+              community in California, or perhaps a mental health facility
+              (sorry to be redundant).
+            </b>
+            <br />
+            Once you assure us that{' '}
+            <b>
+              you're not a blue-haired commy leftist who thinks there are 27 or
+              more genders
+            </b>
+            , you can just choose your package…and then you're done!
+            <br />
+            You'll <b>finally</b> have your food, water, and emergency bugout
+            location, all figured out. So no matter what happens - you'll have a
+            safe, secure place to go.
+          </>
+        }
+      />
+      <ImageSection
+        heading="We're betting our lives on Voluntaria - because this is OUR bugout plan too!"
+        isReverse={false}
+        imageSrc=""
+        invertBg={true}
+        description={
+          <>
+            We're concerned preppers, just like you. And when/if the SHTF -
+            we'll already be here to welcome you and all of our other Safe
+            Harbor members.
+            <br />
+            So - we're betting our own lives - and our families' lives - on the
+            safety, security, and FREEDOM of Voluntaria during a SHTF scenerio.
+            <br />
+            There are three of us who are all in and failure is not an option.
+            This is a business but it’s also our Safe Harbor.
+            <br />
+            We're not leaving the land - we're creating a like-minded community
+            to join us.
+            <br />
+            Can you say the same about any other bugout option?
+          </>
+        }
+      />
+      <WhyUs />
+      <ListSection
+        heading={
+          <>
+            {' '}
+            There are even wild banana trees on the property
+            <br />
+            Plentiful fishing just 1 mile away - you don't even need a boat
+          </>
+        }
+        description={
+          <>
+            Crescent Lake is a fisherman's paradise, with 16,000 acres of
+            freshwater, just 1 mile away.
+            <br />
+            It's common to spot people fishing right off the dock, so you can
+            catch your dinner without a boat.
+            <br />
+            You'll find an abundance of fish in Crescent Lake, including:
+          </>
+        }
+        bullets={[
+          ` Salmon`,
+          `Lake Trout`,
+          `Largemouth Bass`,
+          `Dolly Varden`,
+          `Bluegill`,
+          `Shellcracker`,
+          `Black Crappie.`,
+          `Chain Pickerel`,
+        ]}
+        descriptionAfterBullets={
+          <>
+            Imagine – if the world descends into chaos, you'll be out by the
+            lake, enjoying the fresh air and sunshine. <br /> Then you'll come
+            home and enjoy your catch of wild salmon, cooked to perfection over
+            the fire.
+          </>
+        }
+      />
+      <ReliableFood />
+      <PerfectBalance />
+      <section className=" py-8 sm:py-16 lg:py-32">
+        <Container size="lg">
+          <h2 className="text-3xl font-semibold leading-7 ">
+            You'll never have to worry about your neighbors snitching on you
+          </h2>
+          <ul className="mt-3 ">
+            <li>…for having a birthday party…</li>
+            <li>…or praying…</li>
+            <li>…or gardening…</li>
+            <li>
+              (or whatever they{' '}
+              <b className="italic">try to make illegal next</b> )
+            </li>
+          </ul>
+        </Container>
+      </section>
       {/* <figure className="mx-5 mt-16">
         <Image
           className="z-0 aspect-video rounded-xl bg-gray-50 object-cover"

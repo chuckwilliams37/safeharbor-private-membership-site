@@ -1,5 +1,5 @@
 import React from 'react'
-import blockchainMeeting from '@/images/blockchain-community-meeting-002.png';
+import blockchainMeeting from '@/images/blockchain-community-meeting-002.png'
 
 import {
   DocumentTextIcon,
@@ -9,9 +9,9 @@ import {
   UserGroupIcon,
   CpuChipIcon,
 } from '@heroicons/react/20/solid'
-import Image from 'next/image';
-import { Container } from './Container';
-import { SectionHeading } from './SectionHeading';
+import Image from 'next/image'
+import { Container } from './Container'
+import { SectionHeading } from './SectionHeading'
 
 const features = [
   {
@@ -61,20 +61,21 @@ export default function ManagementTechSection() {
         className="scroll-mt-14 py-4 sm:scroll-mt-32 sm:py-20 lg:py-8"
       >
         <Container>
-          <SectionHeading number="3" className='text-white' >
+          <SectionHeading number="3" className="text-white">
             Private Membership Plan Management and Technological Integration
           </SectionHeading>
-          <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-32">
+          <div className="mx-auto mt-32 max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl sm:text-center">
               <h2 className="text-base font-semibold leading-7 text-green-400">
                 Securing Social and Resource Access
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                At SafeHarbor, we&apos;re excited to integrate advanced technology to
-                enhance the membership experience. With the launch of our member
-                portal within the next 30 days, you&apos;ll enjoy streamlined access
-                to membership contracts, secure communication, and a host of resources
-                for both online and offline community engagement.
+                At SafeHarbor, we&apos;re excited to integrate advanced
+                technology to enhance the membership experience. With the launch
+                of our member portal within the next 30 days, you&apos;ll enjoy
+                streamlined access to membership contracts, secure
+                communication, and a host of resources for both online and
+                offline community engagement.
               </p>
             </div>
           </div>
@@ -111,5 +112,5 @@ export default function ManagementTechSection() {
         </Container>
       </section>
     </div>
-  );
+  )
 }
