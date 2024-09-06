@@ -45,11 +45,11 @@ export function Ethos() {
                 {/* <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                   Embrace the Ethos of Voluntaria
                 </h1> */}
-                <p className="mt-6 text-xl leading-8 text-gray-700">
+                <p className="mt-6 text-base leading-8 text-gray-700 md:text-xl">
                   This project has been in existence since the craziness of 2020
                   happened.
                 </p>
-                <p className="mt-6 text-xl leading-8 text-gray-700">
+                <p className="mt-6 text-base leading-8 text-gray-700 md:text-xl">
                   Chuck and Santori co-founded Voluntaria with a couple friends.
                   The others turned out to not be alignment with where the
                   project was going when I showed up and bought them out. Before
@@ -58,13 +58,13 @@ export function Ethos() {
                   ask them it’s not an easy task to find the plot of land that
                   ticks all the boxes and has a great vibe.
                 </p>
-                <p className="mt-6 text-xl leading-8 text-gray-700">
+                <p className="mt-6 text-base leading-8 text-gray-700 md:text-xl">
                   Finally the perfect location. Off-grid drinking water (2
                   wells), great soil quality (former organic fern farm), perfect
                   climate…and strategic location. Finally the search was over
                   and the deal got done in 2021.
                 </p>
-                <p className="mt-6 text-xl leading-8 text-gray-700">
+                <p className="mt-6 text-base leading-8 text-gray-700 md:text-xl">
                   But then as the project progressed a mere months after the
                   property was acquired, their worst fears were realized. Just
                   as they were ready to launch the the community…it became
@@ -78,7 +78,7 @@ export function Ethos() {
                   not producing any income. It was a big time and money suck for
                   a dream that sputtered and failed to launch.
                 </p>
-                <p className="mt-6 text-xl leading-8 text-gray-700">
+                <p className="mt-6 text-base leading-8 text-gray-700 md:text-xl">
                   This is where I entered the picture. I have known Chuck for
                   years and we have very similar takes on how we feel about
                   freedom. The 3 of us got together and talked about what went
@@ -90,7 +90,7 @@ export function Ethos() {
                   Merging what they had and what I had Voluntaria was born!
                 </p>
 
-                <p className="mt-6 text-xl leading-8 text-gray-700">
+                <p className="mt-6 text-base leading-8 text-gray-700 md:text-xl">
                   But I knew that with the current state of the world, we all
                   need a safe haven for if/when the SHTF. In the end I sold my
                   house bought out the previous partners and went all in on this
@@ -100,11 +100,11 @@ export function Ethos() {
                   it.
                 </p>
 
-                <p className="mt-6 text-xl leading-8 text-gray-700">
+                <p className="mt-6 text-base leading-8 text-gray-700 md:text-xl">
                   That was the biggest hurdle, but it wasn't the only one. The
                   farmhouse and well were seriously run down.
                 </p>
-                <p className="mt-6 text-xl leading-8 text-gray-700">
+                <p className="mt-6 text-base leading-8 text-gray-700 md:text-xl">
                   The well had MAJOR problems. We had to redo EVERYTHING - the
                   accumulation tank, the electrical, the water filter, and all
                   the PVC piping. The well took us weeks and thousands of

@@ -1,10 +1,7 @@
 import Image from 'next/image'
 
-import { Button } from '@/components/Button'
 import { GridPattern } from '@/components/GridPattern'
-import { StarRating } from '@/components/StarRating'
 import coverImage from '@/images/newsletter_cover_photo.png'
-import { PortableText, PortableTextReactComponents } from '@portabletext/react'
 
 // export function Hero({ data }: { data: any }) {
 export function Hero() {
@@ -74,7 +71,7 @@ export function Hero() {
             voluntaryists…
           </p>
         </div>
-        <div className="bg-white pt-16 lg:col-span-7 lg:bg-transparent lg:pl-16 lg:pt-0 xl:pl-20">
+        <div className="bg-white pb-8 pt-16 sm:pb-16 lg:col-span-7 lg:bg-transparent lg:pb-0 lg:pl-16 lg:pt-0 xl:pl-20">
           <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-0">
             <h3 className="text-xl font-extrabold text-green-800">
               <strong>
@@ -82,18 +79,18 @@ export function Hero() {
                 overwhelming…
               </strong>
             </h3>
-            <h3 className="text-xl font-extrabold text-green-800">
+            <h3 className="text-lg font-extrabold text-green-800 md:text-xl">
               …<strong>not to mention, impossible to do alone? </strong>
             </h3>{' '}
             <br />
             <br />
-            <h1 className="text-4xl font-extrabold text-green-800">
+            <h1 className="text-3xl font-extrabold text-green-800 lg:text-4xl">
               <strong>
                 With Voluntaria's Safe Harbor Membership, there's no need to buy
                 your own land…
               </strong>
             </h1>
-            <h3 className="text-xl font-extrabold text-green-800">
+            <h3 className="text-lg font-extrabold text-green-800 md:text-xl">
               …
               <strong>
                 Just bring your RV or Tiny Home - we'll provide the land,

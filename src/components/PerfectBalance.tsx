@@ -1,20 +1,20 @@
-import React from 'react'
 import { Container } from './Container'
 import { SectionHeading } from './SectionHeading'
 
 export const PerfectBalance = () => {
   return (
-    <section className=" bg-green-900 py-24 sm:py-32">
+    <section id="balance" className=" bg-green-900 py-16 sm:py-32">
       <Container size="lg">
-        <SectionHeading number="2" className="text-white">
+        <SectionHeading number="4" className="text-white">
           Your perfect balance of easy accessibility - and remote, rural privacy
         </SectionHeading>
+
         <div className="mt-6">
           <h2 className="text-base font-semibold leading-7 text-green-400">
             Close enough for you to get to in a crisis …remote enough to escape
             The Zombies!
           </h2>
-          <div className="my-6 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="my-6 grid grid-cols-1 gap-8  lg:grid-cols-3">
             <div className="text-base text-white">
               <p className="text-base font-medium">
                 We've carefully chosen this land for its proximity to

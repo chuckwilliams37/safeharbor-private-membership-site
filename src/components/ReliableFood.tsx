@@ -1,4 +1,3 @@
-import React from 'react'
 import { Container } from './Container'
 
 export const ReliableFood = () => {
@@ -10,7 +9,7 @@ export const ReliableFood = () => {
     >
       <Container
         size="lg"
-        className="text-lg tracking-tight text-slate-700 [&>div>h3]:font-bold"
+        className="text-base tracking-tight text-slate-700 md:text-lg [&>div>h3]:font-bold"
       >
         <h2 className="mb-6 text-3xl font-bold">
           Reliable food security - even if you arrive with nothing

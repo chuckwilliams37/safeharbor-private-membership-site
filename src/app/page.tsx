@@ -3,29 +3,25 @@
 // import { Author } from '@/components/Author'
 import { Footer } from '@/components/Footer'
 import { Hero } from '@/components/Hero'
-import { NavigationBar } from '@/components/NavigationBar'
 import { Introduction } from '@/components/Introduction'
-import { Pricing } from '@/components/Pricing'
+import { NavigationBar } from '@/components/NavigationBar'
 // import { ClickableOverview } from '@/components/ClickableOverview'
 import { Testimonial } from '@/components/Testimonial'
 // import { Testimonials } from '@/components/Testimonials'
-import avatarImage1 from '@/images/avatars/kevin_fake_ai_sketch_001.png'
-import avatarImage2 from '@/images/chad-cameron.png'
-import { Ethos } from '@/components/Ethos'
 import { Benefits } from '@/components/Benefits'
-import { InformationCircleIcon } from '@heroicons/react/20/solid'
-import Image from 'next/image'
-import managementAndTechImage from '@/images/bitcoin-blockchain-camper-oak-forest.png'
-import ManagementTechSection from '@/components/ManagementTechSection'
-import EmergencyProtocols from '@/components/EmergencyProtocols'
+import { Ethos } from '@/components/Ethos'
+import avatarImage1 from '@/images/avatars/kevin_fake_ai_sketch_001.png'
 // import VoluntariaCallout from '@/components/VoluntariaCallout'
-import Head from 'next/head'
-import { Container } from '@/components/Container'
-import { ListSection } from '@/components/ui/ListSection'
-import { ImageSection } from '@/components/ui/ImageSection'
-import { WhyUs } from '@/components/WhyUs'
-import { ReliableFood } from '@/components/ReliableFood'
+import { Guarantee } from '@/components/Guarrantee'
+import { Membership } from '@/components/Membership'
+import { NoWorry } from '@/components/NoWorry'
 import { PerfectBalance } from '@/components/PerfectBalance'
+import { PricingTable } from '@/components/PricingTable'
+import { ReliableFood } from '@/components/ReliableFood'
+import { ImageSection } from '@/components/ui/ImageSection'
+import { ListSection } from '@/components/ui/ListSection'
+import { WhyUs } from '@/components/WhyUs'
+import Head from 'next/head'
 
 // import { client } from '../../sanity/lib/client'
 
@@ -269,24 +265,14 @@ export default function Home({
           </>
         }
       />
+
       <ReliableFood />
       <PerfectBalance />
-      <section className=" py-8 sm:py-16 lg:py-32">
-        <Container size="lg">
-          <h2 className="text-3xl font-semibold leading-7 ">
-            You'll never have to worry about your neighbors snitching on you
-          </h2>
-          <ul className="mt-3 ">
-            <li>…for having a birthday party…</li>
-            <li>…or praying…</li>
-            <li>…or gardening…</li>
-            <li>
-              (or whatever they{' '}
-              <b className="italic">try to make illegal next</b> )
-            </li>
-          </ul>
-        </Container>
-      </section>
+      <NoWorry />
+      <Membership />
+      <PricingTable />
+      <Guarantee />
+
       {/* <figure className="mx-5 mt-16">
         <Image
           className="z-0 aspect-video rounded-xl bg-gray-50 object-cover"
@@ -302,9 +288,9 @@ export default function Home({
           of cryptocurrencies and NFTs.
         </figcaption>
       </figure> */}
-      <ManagementTechSection />
+      {/* <ManagementTechSection />
       <EmergencyProtocols />
-      <Pricing />
+      <Pricing /> */}
       <div>{/* Pricing Support */}</div>
       <div>{/* Legal / Ethics */}</div>
       <div>{/* Conclusion */}</div>

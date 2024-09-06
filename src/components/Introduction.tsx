@@ -1,7 +1,6 @@
 import Link from 'next/link'
 
 import { Container } from '@/components/Container'
-import { PortableText, PortableTextReactComponents } from '@portabletext/react'
 
 // export function Introduction({ data }: { data: any }) {
 export function Introduction() {
@@ -26,9 +25,9 @@ export function Introduction() {
     <section
       id="introduction"
       aria-label="Introduction"
-      className="pb-16 pt-20 sm:pb-20 md:pt-36 lg:py-32"
+      className="py-8 sm:py-16 lg:py-32"
     >
-      <Container className="text-lg tracking-tight text-slate-700 [&>div>h3]:font-bold">
+      <Container className="text-base tracking-tight text-slate-700 md:text-lg [&>div>h3]:font-bold">
         <div className="mt-8 ">
           <h3 className="text-2xl">
             Are you struggling with any of these prepping challenges?

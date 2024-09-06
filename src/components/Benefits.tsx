@@ -71,10 +71,10 @@ export function Benefits() {
         </SectionHeading>
         <div className="mt-6 overflow-hidden rounded-3xl bg-white">
           <div className="mx-auto max-w-7xl">
-            <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-              <div className=" px-6 py-16 lg:px-8">
+            <div className="mx-auto grid max-w-2xl grid-cols-1 sm:gap-y-0 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:gap-x-8 lg:gap-y-16">
+              <div className=" order-2 px-6 py-16 lg:order-1 lg:px-8">
                 <div className="max-w-lg">
-                  <h2 className="text-base font-semibold leading-7 text-green-600">
+                  <h2 className="text-lg font-semibold leading-7 text-green-600">
                     I know what makes a community thrive OR fail - because we’ve
                     lived it!*
                     <br />
@@ -107,11 +107,11 @@ export function Benefits() {
                     to help. We help each other because we choose to - not
                     because we're forced to.
                   </p>
-                  <h2 className="text-base font-semibold leading-7 text-green-600">
+                  <h2 className="text-lg font-semibold leading-7 text-green-600">
                     You're not alone anymore. <br />
                     Whatever happens, we'll figure it out - together.
                   </h2>
-                  <p>
+                  <p className="text-lg text-gray-600">
                     We understand what it's like… <br />
                     To be shunned, yelled at and mocked… <br />
                     To be accused of "killing grandma" or "spreading
@@ -148,7 +148,7 @@ export function Benefits() {
                       community of like minded freedom minded unvaxxed people.
                     </b>
                   </p>
-                  {/* <dl className="mt-10 space-y-8 text-base leading-7 text-gray-600">
+                  {/* <dl className="mt-10 space-y-8 text-lg leading-7 text-gray-600">
                     {features.map((feature) => (
                       <div key={feature.name} className="relative">
                         <dt>
@@ -165,11 +165,11 @@ export function Benefits() {
                   </dl> */}
                 </div>
               </div>
-              <div className="relative">
+              <div className="relative order-1 h-80 lg:order-2 lg:h-full ">
                 <Image
                   src={campingScene}
                   alt="Camping in the oaks"
-                  className="absolute h-full w-full object-cover shadow-xl ring-1 ring-gray-400/10"
+                  className="absolute  h-full w-full object-cover  ring-1 ring-gray-400/10"
                   width={2432}
                   height={1442}
                 />
