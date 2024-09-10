@@ -1,18 +1,14 @@
 import Image from 'next/image'
 
-import { Button } from '@/components/Button'
 import { GridPattern } from '@/components/GridPattern'
-import { StarRating } from '@/components/StarRating'
-import coverImage from '@/images/newsletter_cover_photo.png';
-import {PortableText, PortableTextReactComponents} from '@portabletext/react'
+import coverImage from '@/images/newsletter_cover_photo.png'
 
-
-export function Hero ({ data }: { data: any }) {
-
+// export function Hero({ data }: { data: any }) {
+export function Hero() {
   // console.log("Hero.data", data.initialPromptHeading);
 
   // data.initialPromptHeading.map( (block, index) => {
-    // console.log("block.children", block.children);
+  // console.log("block.children", block.children);
   // });
   // {
   //   span : ({children}) => (
@@ -25,22 +21,32 @@ export function Hero ({ data }: { data: any }) {
   //     <h2 className="text-lg text-primary text-purple-700">{children}</h2>
   //   )
   // }
-  const components:Partial<PortableTextReactComponents> = {
-    block: {
-      // Ex. 1: customizing common block types
-      p: ({ children }) => <p className="text-xl text-slate-600">{children}</p>,
-      undefined: ({ children }) => <p className="text-xl text-slate-600">{children}</p>,
-      h1: ({ children }) => <h1 className="text-4xl font-extrabold text-green-800">{children}</h1>,
-      h2: ({ children }) => <h2 className="text-2xl font-extrabold text-green-800">{children}</h2>,
-      h3: ({ children }) => <h3 className="text-xl font-extrabold text-green-800">{children}</h3>,
-      blockquote: ({ children }) => <blockquote className="border-l-purple-500">{children}</blockquote>,
+  // const components: Partial<PortableTextReactComponents> = {
+  //   block: {
+  //     // Ex. 1: customizing common block types
+  //     p: ({ children }) => <p className="text-xl text-slate-600">{children}</p>,
+  //     undefined: ({ children }) => (
+  //       <p className="text-xl text-slate-600">{children}</p>
+  //     ),
+  //     h1: ({ children }) => (
+  //       <h1 className="text-4xl font-extrabold text-green-800">{children}</h1>
+  //     ),
+  //     h2: ({ children }) => (
+  //       <h2 className="text-2xl font-extrabold text-green-800">{children}</h2>
+  //     ),
+  //     h3: ({ children }) => (
+  //       <h3 className="text-xl font-extrabold text-green-800">{children}</h3>
+  //     ),
+  //     blockquote: ({ children }) => (
+  //       <blockquote className="border-l-purple-500">{children}</blockquote>
+  //     ),
 
-      // Ex. 2: rendering custom styles
-      customHeading: ({ children }) => (
-        <h2 className="text-lg text-primary text-purple-700">{children}</h2>
-      ),
-    },
-  }
+  //     // Ex. 2: rendering custom styles
+  //     customHeading: ({ children }) => (
+  //       <h2 className="text-primary text-lg text-purple-700">{children}</h2>
+  //     ),
+  //   },
+  // }
 
   return (
     <header className="overflow-hidden bg-slate-100 lg:bg-transparent lg:px-5">
@@ -60,18 +66,50 @@ export function Hero ({ data }: { data: any }) {
 
         <div className="relative px-4 sm:px-6 lg:col-span-7 lg:pb-14 lg:pl-16 lg:pr-0 xl:pl-20">
           <div className="" />
-          <p className="mt-4 text-xl text-slate-600">{data.pageOpeningLine}</p>
+          <p className="mt-4 text-xl text-slate-600">
+            Calling all freedom-lovers, redpilled preppers, libertarians &
+            voluntaryists…
+          </p>
         </div>
-        <div className="bg-white pt-16 lg:col-span-7 lg:bg-transparent lg:pl-16 lg:pt-0 xl:pl-20">
+        <div className="bg-white pb-8 pt-16 sm:pb-16 lg:col-span-7 lg:bg-transparent lg:pb-0 lg:pl-16 lg:pt-0 xl:pl-20">
           <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-0">
-              <PortableText value={data.initialPromptHeading} components={components} />              
+            <h3 className="text-xl font-extrabold text-green-800">
+              <strong>
+                Is creating a bug-out plan too expensive, confusing and
+                overwhelming…
+              </strong>
+            </h3>
+            <h3 className="text-lg font-extrabold text-green-800 md:text-xl">
+              …<strong>not to mention, impossible to do alone? </strong>
+            </h3>{' '}
+            <br />
+            <br />
+            <h1 className="text-3xl font-extrabold text-green-800 lg:text-4xl">
+              <strong>
+                With Voluntaria's Safe Harbor Membership, there's no need to buy
+                your own land…
+              </strong>
+            </h1>
+            <h3 className="text-lg font-extrabold text-green-800 md:text-xl">
+              …
+              <strong>
+                Just bring your RV or Tiny Home - we'll provide the land,
+                drinking water, and freedom minded community...{' '}
+              </strong>
+            </h3>
+            {/* <PortableText
+              value={data.initialPromptHeading}
+              components={components}
+            />
             <div className="mt-8 ">
-              <PortableText value={data.heroHeading} components={components} />              
-            </div>
+              <PortableText value={data.heroHeading} components={components} />
+            </div> */}
           </div>
         </div>
       </div>
     </header>
   )
 }
-{/* ************************************** ABOVE THIS LINE IS COMPLETE 2024.05.21.2314 ******************************************* */}
+{
+  /* ************************************** ABOVE THIS LINE IS COMPLETE 2024.05.21.2314 ******************************************* */
+}

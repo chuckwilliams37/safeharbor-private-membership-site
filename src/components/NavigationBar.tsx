@@ -1,8 +1,8 @@
-'use client';
+'use client'
 
-import { useEffect, useRef, useState } from 'react'
 import { Popover } from '@headlessui/react'
 import clsx from 'clsx'
+import { useEffect, useRef, useState } from 'react'
 
 const sections = [
   // {
@@ -16,8 +16,8 @@ const sections = [
   // },
   { id: 'ethos', title: 'Intro & Ethos' },
   { id: 'benefits', title: 'Rights & Benefits' },
-  { id: 'tech', title: 'Mgmt & Tech' },
-  { id: 'protocols', title: 'Emergency Protocols' },
+  { id: 'food', title: 'Food Security' },
+  { id: 'balance', title: 'Privacy' },
   { id: 'pricing', title: 'Pricing' },
   // { id: 'legal', title: 'Legal & Ethics' },
 ]

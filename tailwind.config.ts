@@ -4,6 +4,13 @@ import defaultTheme from 'tailwindcss/defaultTheme'
 export default {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
+    container: {
+      padding: '15px',
+      center: true,
+      screens: {
+        lg: '1224px',
+      },
+    },
     boxShadow: {
       sm: '0 2px 6px rgb(15 23 42 / 0.08)',
       md: '0 8px 8px rgb(15 23 42 / 0.05), 0 3px 6px rgb(15 23 42 / 0.05)',
@@ -34,6 +41,13 @@ export default {
       fontFamily: {
         sans: 'var(--font-inter)',
         display: ['Cabinet Grotesk', ...defaultTheme.fontFamily.sans],
+      },
+      listStyleType: {
+        roman: 'lower-roman',
+      },
+      backgroundImage: {
+        neighbour:
+          'url(https://images.unsplash.com/photo-1480497490787-505ec076689f?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
       },
     },
   },
