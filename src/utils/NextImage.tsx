@@ -1,6 +1,21 @@
 'use client'
 import React, { useState } from 'react'
 import Image from 'next/image'
+import { StaticImageData, ImageProps } from 'next/image'
+
+
+interface NextImageProps extends Partial<ImageProps> {
+  src: string | StaticImageData
+  width?: number
+  height?: number
+  alt?: string
+  priority?: boolean
+  testid?: string
+  fallbackSrc?: string
+  fill?: boolean
+  decoding?: 'async' | 'auto'
+  className?: string
+}
 
 const NextImage = ({
   src = '/assets/images/placeholderImage.webp',
@@ -14,7 +29,7 @@ const NextImage = ({
   decoding = 'async',
   className = '',
   ...props
-}) => {
+}: NextImageProps) => {
   const [imageSrc, setImageSrc] = useState(src)
   const [fallbackLoaded, setFallbackLoaded] = useState(false)
 
