@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"npm:dev:next\" \"npm:dev:sanity\"",
+    "dev": "npm run dev:next",
     "dev:next": "next dev",
     "dev:sanity": "npx sanity dev",
-    "build": "run-p build:next build:sanity",
+    "build": "run-p build:next",
     "build:sanity": "npx sanity build",
     "build:next": "next build",
     "start": "next start",
