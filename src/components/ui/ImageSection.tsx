@@ -1,6 +1,7 @@
 import { NextImage } from '@/utils/NextImage'
 import { ReactNode } from 'react'
 import { Container } from '../Container'
+import { StaticImageData } from 'next/image'
 
 export const ImageSection = ({
   isReverse,
@@ -13,7 +14,7 @@ export const ImageSection = ({
   invertBg: boolean
   heading: ReactNode
   description: ReactNode
-  imageSrc: string
+  imageSrc: string | StaticImageData
 }) => {
   return (
     <section className={`py-8 sm:py-16 lg:py-32 ${invertBg ? 'bg-white' : ''}`}>
