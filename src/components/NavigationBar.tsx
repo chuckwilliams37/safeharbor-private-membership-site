@@ -14,10 +14,10 @@ const sections = [
   //     </>
   //   ),
   // },
-  { id: 'ethos', title: 'Intro & Ethos' },
-  { id: 'benefits', title: 'Rights & Benefits' },
-  { id: 'food', title: 'Food Security' },
-  { id: 'balance', title: 'Privacy' },
+  { id: 'birth', title: 'The Birth of Voluntaria' },
+  { id: 'benefits', title: 'Membership Benefits' },
+  { id: 'shtf', title: 'SHTF? Voluntaria.' },
+  { id: 'balance', title: 'Privacy & Access' },
   { id: 'pricing', title: 'Pricing' },
   // { id: 'legal', title: 'Legal & Ethics' },
 ]

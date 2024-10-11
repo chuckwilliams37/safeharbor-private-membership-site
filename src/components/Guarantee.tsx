@@ -51,33 +51,24 @@ export const Guarantee = () => {
         {/* 90-Day Money Back Guarantee */}
         <div className="rounded-lg bg-white p-6 shadow-lg sm:p-8">
           <h3 className="mb-6 text-2xl font-semibold text-gray-900">
-            90-Day Money Back Guarantee
+            30-Day Money Back Guarantee
           </h3>
           <div className="space-y-4 text-base text-gray-700 md:text-lg">
             <p>
-              We want you to be completely comfortable and at ease with your
-              Voluntaria Safe Harbor Membership. The entire point of your
-              membership is to put your mind at ease… we don&apos;t want any of our
-              members to have buyer&apos;s remorse.
+              Your peace of mind is our top priority. We&apos;re confident you&apos;ll love your
+              Voluntaria Safe Harbor Membership, but we want you to feel completely at ease.
             </p>
             <p>
-              That&apos;s why we&apos;ll give you a full 90 days to change your mind. No
-              problem - if you change your mind for any reason, we&apos;ll give you a
-              full refund on your membership AND your food supply (if unused) will
-              be resold to an incoming party.
+              That&apos;s why we offer a full 30-day money-back guarantee. If you change your mind
+              for any reason, we&apos;ll refund your membership and unused food supply, no questions asked.
             </p>
             <p>
-              So, you can reserve your spot today at today&apos;s prices. You won&apos;t
-              need to worry about lots selling out or our prices going up. And if
-              you change your mind later, we&apos;ll give you a full refund within the
-              initial 90 days. Imagine if your home insurance policy gave you a
-              full refund after 3 months… it would be unheard of. That&apos;s
-              essentially 3 months of free coverage.
+              Lock in today&apos;s prices with confidence. You&apos;ll have a full month to experience
+              Voluntaria risk-free &ndash; that&apos;s unheard of in the insurance world!
             </p>
             <p>
-              But we&apos;re not an insurance company - we&apos;re concerned preppers &
-              freedom lovers, just like you. So, our top priority is that everyone
-              at Voluntaria is here voluntarily!
+              We&apos;re preppers and freedom enthusiasts just like you, committed to ensuring
+              everyone at Voluntaria is here voluntarily. ;-)
             </p>
           </div>
           <div className="mt-8 text-center">

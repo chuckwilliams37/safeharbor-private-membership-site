@@ -19,13 +19,13 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="relative px-4 sm:px-6 lg:col-span-7 lg:pb-14 lg:pl-16 lg:pr-0 xl:pl-20">
-          <p className="mt-4 text-xl text-slate-700 font-semibold">
+        <div className="relative px-4 sm:px-6 lg:col-span-7 lg:pb-2 lg:pl-16 lg:pr-0 xl:pl-20">
+          <p className="mt-4 text-4xl text-slate-700 font-black">
             Calling all freedom-lovers, redpilled preppers, libertarians &
             voluntaryists&hellip;
           </p>
         </div>
-        <div className="bg-white pb-8 pt-16 sm:pb-16 lg:col-span-7 lg:bg-transparent lg:pb-0 lg:pl-16 lg:pt-0 xl:pl-20">
+        <div className="bg-white pb-24 pt-0 sm:pb-16 lg:col-span-7 lg:bg-transparent lg:pb-0 lg:pl-16 lg:pt-0 xl:pl-20">
           <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-0">
             <h3 className="text-xl font-bold text-green-800 mb-4">
               Is creating a bug-out plan too expensive, confusing and

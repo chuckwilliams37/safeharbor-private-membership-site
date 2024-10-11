@@ -5,8 +5,8 @@ import { SectionHeading } from './SectionHeading'
 export const WhyUs = () => {
   return (
     <section
-      id="food"
-      aria-labelledby="whyus-title"
+      id="shtf"
+      aria-labelledby="shtf-title"
       className="scroll-mt-14 py-8 sm:scroll-mt-32 sm:py-16 lg:py-32"
     >
       <Container size="lg">

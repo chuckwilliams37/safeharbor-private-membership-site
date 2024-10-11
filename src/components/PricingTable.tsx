@@ -8,7 +8,7 @@ export const PricingTable = () => {
         {/* Early Membership Benefits */}
         <div className="mb-12">
           <SectionHeading number="5">
-            You&apos;ll Have Even More Say When You Get In on the Ground Floor
+            Ground Floor Opportunity: Literally, You&apos;ll Have More Say in What We Build
           </SectionHeading>
 
           <p className="mb-6 text-base text-gray-700 md:text-lg">

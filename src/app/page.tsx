@@ -7,7 +7,15 @@ import { NavigationBar } from '@/components/NavigationBar'
 import { Testimonial } from '@/components/Testimonial'
 import { Benefits } from '@/components/Benefits'
 import { Ethos } from '@/components/Ethos'
-import avatarImage1 from '@/images/avatars/kevin_fake_ai_sketch_001.png'
+import avatarImage1 from '@/images/chad/Screenshot 2024-10-11 155120.png'
+import coreTeamImage from '@/images/core_team.png'
+
+import landPhoto002 from '@/images/property/Screenshot 2024-10-11 165554.png'
+import landPhoto003 from '@/images/property/Screenshot 2024-10-11 170226.png'
+import landPhoto004 from '@/images/property/Screenshot 2024-10-11 170253.png'
+import landPhoto005 from '@/images/property/Screenshot 2024-10-11 170359.png'
+import landPhoto006 from '@/images/property/Screenshot 2024-10-11 170408.png'
+
 import { Guarantee } from '@/components/Guarantee'
 import { Membership } from '@/components/Membership'
 import { NoWorry } from '@/components/NoWorry'
@@ -49,8 +57,8 @@ export default function Home({
           Hi - I&apos;m Chad Cameron, Co-Founder of Voluntaria.
         </h2>
         <p>
-          My partners, Chuck and Santori and I co-founded Voluntaria to create a
-          safe haven from whatever crisis comes next.
+          My partners, Chuck, Santori and I co-founded Voluntaria to create a
+          safe haven from whatever crisis may come next.
           <br />
           <br />
           And let me tell you - it was NOT easy.
@@ -60,10 +68,11 @@ export default function Home({
       <ListSection
         heading={
           <>
-            We had to spend over a year looking at properties, sorting
+            We spent over a year looking at properties, sorting
             financing, dealing with legal hurdles and negotiating agreements.
             <br />
-            But YOUR bugout planning is as easy as online shopping
+            <br />
+            But now, we&apos;re making YOUR bugout planning as easy as online shopping.
           </>
         }
         description={
@@ -77,28 +86,30 @@ export default function Home({
         bullets={[
           `You don't need to spend weeks driving across the country, shopping
             for land`,
-          `You don't need to find freedom minded business partners or convince
-            your friends to go in on land with you&hellip;and start from scratch when
+          `You don't need to hunt down freedom minded business partners or convince
+            your friends to go in on land with you, then worry about starting from scratch when
             they bail out`,
           `You don't need to figure out financing, or worry about your credit
             score`,
           `You don't need to save for an impossibly-high down payment deposit`,
-          `You don't need to be tied down to land.`,
+          `You don't need to be tied down to land. Transient ownerships are encouraged!`,
           `You don't have to fix the wells.`,
           `You don't have to bush hog the overgrown roads/trails.`,
         ]}
         descriptionAfterBullets={
           <>
-            You don&apos;t have to do any of it&hellip; <br />
-            <span className="font-bold text-green-600">
-              &hellip;We&apos;ve got you covered.
-            </span>
-            <br />
+            <p className="mb-6 text-xl">
+
+              You don&apos;t have to do any of it&hellip; &nbsp;
+              <span className="font-bold text-green-600">
+                &hellip;We&apos;ve got you covered.
+              </span>
+            </p>
             <b>
               Voluntaria&apos;s Safe Harbor is an affordable membership that gives
               you access to a safe bugout location and community, when/if the
               SHTF. Just like you have a home insurance policy in case there&apos;s a
-              fire - we&apos;re here for when crisis strikes.
+              fire - we&apos;re here for in case of a crisis.
             </b>
           </>
         }
@@ -107,7 +118,7 @@ export default function Home({
       <ImageSection
         heading="Surround yourself with people who care enough to prepare"
         isReverse={false}
-        imageSrc="https://via.placeholder.com/800x600?text=Community+Image"
+        imageSrc={coreTeamImage}
         invertBg={true}
         description={
           <>
@@ -128,7 +139,7 @@ export default function Home({
       <ImageSection
         heading="You can have your bugout plan finished by NEXT WEEK"
         isReverse={true}
-        imageSrc="https://via.placeholder.com/800x600?text=Bugout+Plan+Image"
+        imageSrc={landPhoto003}
         invertBg={false}
         description={
           <>

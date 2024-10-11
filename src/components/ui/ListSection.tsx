@@ -16,7 +16,7 @@ export const ListSection = ({
     <section className="bg-white py-8 sm:py-16 lg:py-32">
       <Container size="lg">
         {heading && (
-          <h2 className="text-lg font-semibold leading-7 text-green-600">
+          <h2 className="text-xl font-semibold leading-7 text-green-600 py-10">
             {heading}
           </h2>
         )}
