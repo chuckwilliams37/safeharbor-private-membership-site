@@ -52,7 +52,7 @@ export function Ethos() {
                     But I knew that with the current state of the world, we all need a safe haven for if/when the SHTF. In the end I sold my house bought out the previous partners and went all in on this project. It was a big stretch for me&hellip;but it just all felt right. I had the guys we had the property the 3 of us have great ideas&hellip;all the ingredients were there we just had to do it.
                   </p>
                   <p>
-                    That was the biggest hurdle, but it wasn&apos;t the only one. The farmhouse and well were seriously run down.
+                    That was the biggest hurdle, but it wasn&apos;t the only one. Thecommunity house and well were seriously run down.
                   </p>
                   <p>
                     The well had MAJOR problems. We had to redo EVERYTHING - the accumulation tank, the electrical, the water filter, and all the PVC piping. The well took us weeks and thousands of dollars to fix and more time than I care to count. 

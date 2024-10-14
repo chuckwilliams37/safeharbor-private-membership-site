@@ -152,21 +152,14 @@ export default function Home({
             social justice warrior who &ldquo;identifies as a cat&rdquo;&hellip;nothing personal it
             just won&apos;t be a good fit.
             <br />
-            <b>
-              (Sorry&hellip;we&apos;re looking for like minded but I am sure there is a
-              community in California, or perhaps a mental health facility
-              (sorry to be redundant).
-            </b>
-            <br />
             Once you assure us that{' '}
             <b>
-              you&apos;re not a blue-haired commy leftist who thinks there are 27 or
-              more genders
+              we're all on the same page
             </b>
-            , you can just choose your package&hellip;and then you&apos;re done!
+            , you can just resolve payment, and your membership is secured for 1 year!
             <br />
-            You&apos;ll <b>finally</b> have your food, water, and emergency bugout
-            location, all figured out. So no matter what happens - you&apos;ll have a
+            You&apos;ll <b>finally</b> bugout location, all figured out in the event of the next crisis.
+            So no matter what happens - you&apos;ll have a
             safe, secure place to go.
           </>
         }

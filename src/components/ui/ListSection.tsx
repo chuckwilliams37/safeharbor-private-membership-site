@@ -21,7 +21,7 @@ export const ListSection = ({
           </h2>
         )}
         {description && (
-          <p className="text-base text-gray-700 md:text-lg">{description}</p>
+          <div className="text-base text-gray-700 md:text-lg">{description}</div>
         )}
         {bullets && (
           <ul className="my-6 text-base text-gray-700 md:text-lg [&>li]:flex [&>li]:items-center [&>li]:gap-3 [&>li]:before:h-2 [&>li]:before:w-2 [&>li]:before:rounded-full [&>li]:before:bg-green-600">

@@ -10,30 +10,23 @@ export const ReliableFood = () => {
       <Container size="lg">
         <div className="mx-auto max-w-3xl">
           <h2 className="mb-8 text-3xl font-bold text-gray-900 sm:text-4xl">
-            Reliable food security - even if you arrive with nothing
+            Ensuring Food Security for All Voluntaria Members – Even if You Come with Nothing
           </h2>
           <div className="space-y-6 text-base text-gray-700 sm:text-lg">
             <p>
-              We&apos;re proud of the abundance of fish and game at Voluntaria, but we&apos;re
-              also realists. We won&apos;t know how effective our group will be at
-              fishing and trapping, until you all get here and actually do it.
+             At Voluntaria, we're grateful for the natural abundance of fish and game. But we also understand the importance of planning ahead, especially when it comes to food security. Until everyone arrives and gets hands-on with fishing, hunting, and gathering, it’s tough to predict exactly how successful we’ll be.
             </p>
             <p>
-              The last thing we want is to have dozens of people gathered in a
-              crisis&hellip;with a shortage of food.
+              The last thing any of us wants in a time of need is to gather together and face a shortage of food.
             </p>
             <p>
-              So - we&apos;re not taking ANY chances with food security. We&apos;re making
-              sure there&apos;s plenty of food in storage in addition to anything we fish
-              or trap.
+             To avoid this, we’re fully committed to ensuring there’s plenty of food storage, in addition to what we gather ourselves. We’re prioritizing a solid food supply so that no matter what, everyone here has what they need.
             </p>
             <p>
-              Hopefully you&apos;ve already been prepping, and stockpiling food. And
-              when/if the SHTF, we definitely want you to bring your stockpile of
-              food, when you come to Voluntaria.
+              Ideally, you&apos;re already prepared and have your own stockpile of food. If a major crisis hits and you decide to join us, we encourage you to bring any supplies you&apos;ve stored.
             </p>
             <p>
-              But - we also know that might not be possible or practical.
+              That said, we recognize that might not always be possible. Circumstances beyond your control—such as natural disasters or other threats—might prevent you from bringing your supplies. Or perhaps, despite your own preparedness, other members arrive without any food. The last thing we want is for anyone to feel vulnerable or worried about their food supply once they&apos;re here.
             </p>
             <p>
               Maybe you&apos;re escaping fire or direct energy attack, and your home and
@@ -77,12 +70,11 @@ export const ReliableFood = () => {
               shelter to survive the elements.
             </p>
             <p>
-              Because Mother Nature is unforgiving, and you don&apos;t have room for
-              mistakes&hellip; &hellip;except in Florida.
+              Because Mother Nature is unforgiving, you can&apos;t leave room for mistakes.
             </p>
             <p>
               You&apos;ll love the temperate climate of our location in Crescent City,
-              Florida. Mother Nature is gentle here year-round - so even in the
+              Florida. The weather is gentle here year-round - so even in the
               event of power or fuel shortage, it&apos;s not hard to survive. Voluntaria
               is located about an hours drive west of Palm Coast FL. The beauty of
               being this far inland is hurricanes don&apos;t traverse over land well so
@@ -91,7 +83,7 @@ export const ReliableFood = () => {
             </p>
             <p>
               In fact, most of the time you&apos;ll be quite comfortable - even without
-              climate control&hellip; &hellip;year-round!
+              climate control&hellip; <br />&hellip;year-round!
             </p>
             <p className="font-semibold">At the coldest end of the spectrum:</p>
             <ul className="list-disc pl-6">
@@ -117,19 +109,16 @@ export const ReliableFood = () => {
             </p>
             <p>
               Florida&apos;s governor, Ron DeSantis, was one of the first to end COVID
-              lockdowns (not that lockdowns were EVER acceptable in the first
-              place&hellip;but that&apos;s why you need a bugout plan instead of just moving to
-              Florida).
+              lockdowns and other restrictions. We think that&apos;s a good sign. 
             </p>
             <p>
               Florida also allows concealed carry without a permit. So, when/if the
               SHTF, you&apos;ll be able to bring your guns and carry them, legally -
-              without needing to scramble and try to apply for permits (from
-              criminal entities) in a crisis.
+              without needing to scramble and ask permission. 
             </p>
             <p>
               We even have plans to create a shooting range as to encourage everyone
-              to sharpen or acquire gun knowledge.
+              to sharpen or acquire gun skills and knowledge.
             </p>
             <p>
               Florida also strongly supports property rights and self-defense - even
@@ -140,7 +129,7 @@ export const ReliableFood = () => {
             </p>
             <p>
               If any state government is going to leave you alone when/if the
-              SHTF&hellip;it&apos;s gonna be Florida!
+              SHTF&hellip;it&apos;s probably going to be Florida!
             </p>
           </div>
         </div>

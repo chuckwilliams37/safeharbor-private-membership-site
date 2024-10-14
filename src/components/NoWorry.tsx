@@ -81,16 +81,16 @@ export const NoWorry = () => {
             <p>You&apos;ll also have shared access to:</p>
             <ul className="list-inside list-disc space-y-2 pl-4">
               <li>
-                The community farmhouse, with a large kitchen, bathroom, and patio
+                The community house, with a large kitchen, bathroom, and patio
               </li>
               <li>The community pole barn</li>
               <li>52 acres of lush meadow and extensive forest</li>
               <li>The beautiful 3/4 acre pond</li>
               <li>Ability to hunt and trap game on the property</li>
               <li>As much firewood as you can chop, from the on-site forests</li>
-              <li>The farmhouse well, and the South-side well</li>
+              <li>Thecommunity house well, and the South-side well</li>
               <li>
-                Filtered drinking water, available at the community farmhouse
+                Filtered drinking water, available at the community house
                 (with an off-grid solar powered backup)
               </li>
               <li>

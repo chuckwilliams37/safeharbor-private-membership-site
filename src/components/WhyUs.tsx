@@ -45,8 +45,8 @@ export const WhyUs = () => {
                   <ol className="mt-6 space-y-4 text-base md:text-lg">
                     {[
                       {
-                        title: "The Farmhouse Well",
-                        description: "The first well is located by the community farmhouse, in the South-middle part of the property."
+                        title: "The Community House Well",
+                        description: "The first well is located by the community house, in the South-middle part of the property."
                       },
                       {
                         title: "The South-Side Well",
@@ -63,21 +63,38 @@ export const WhyUs = () => {
                       {
                         title: "The Pond",
                         description: [
-                          "You'll also find water in the property's 3/4 acre pond",
+                          "You'll also find water in the property's 3/4 surface acre pond",
                           "The pond can easily be stocked with fish"
                         ],
                         note: "We have plenty of water on the property."
+                      },
+                      {
+                        title: "The Sky",
+                        description: [
+                          "Rainwater is collected in the property's 3/4 acre pond",
+                          "Other slated collection projects include a 55 gallon drum collection system and a 1000 gallon cistern"
+                        ]
+                      },
+                      {
+                        title: "The 3rd Largest Freshwater Lake in Florida",
+                        description: [
+                          "Crescent Lake is the 3rd largest freshwater lake in Florida",
+                          "The lake is a major source of drinking water for the region"
+                        ],
+                        note: "We have plenty of water on the property ;-)"
                       }
                     ].map((item, index) => (
                       <li key={index} className="ml-4">
-                        <span className="font-bold">{item.title}</span>
-                        <ul className="mt-2 ml-4 list-disc space-y-1 text-gray-600">
-                          {Array.isArray(item.description) 
+                       
+                        <ul className="mt-2 ml-4 space-y-1 text-gray-600">
+                          <li><span className="-ml-8 font-bold">{item.title}:</span> <ul className='list-disc inline' >{Array.isArray(item.description) 
                             ? item.description.map((desc, i) => <li key={i}>{desc}</li>)
                             : <li>{item.description}</li>
                           }
+                          </ul>
+                          </li>
                         </ul>
-                        {item.note && <p className="mt-2 font-semibold text-gray-600">{item.note}</p>}
+                        {item.note && <p className="mt-2 text-gray-600">{item.note}</p>}
                       </li>
                     ))}
                   </ol>
@@ -90,7 +107,7 @@ export const WhyUs = () => {
                     <li>Unlike Reverse-Osmosis (RO) systems, this system returns calcium and magnesium back into your water, instead of leeching out minerals</li>
                     <li>No power is needed to run the system, except for the water pump</li>
                     <li>The water pump has backup power from solar panels - so you&apos;ll never lose access to water purification</li>
-                    <li>The filtered water is available from the taps at the community farmhouse - just fill up a few jugs of water as needed, or drive your RV over to the house</li>
+                    <li>The filtered water is available from the taps at the community house - just fill up a few jugs of water as needed, or drive your RV over to thecommunity house</li>
                   </ul>
 
                   <h2 className="mt-8 mb-4 text-xl font-bold leading-7 text-green-600">
@@ -113,13 +130,13 @@ export const WhyUs = () => {
                     <li>Deer</li>
                     <li>Black bears</li>
                     <li>Alligators</li>
+                    <li>Ducks</li>
                   </ul>
                   <p className="mt-4 text-base font-semibold text-gray-600 md:text-lg">
                     While everyone else is eating bugs and Bill Gates&apos; fake
                     meat, you&apos;ll be eating fresh, wild meat and fish that you&apos;ve
                     caught yourself. Unless you are a vegetarian/vegan and in
-                    that case we have excellent soil and you can help grow all
-                    sorts of fruits and vegetables.
+                    that case we have excellent laboratory tested, chemical free soil where we have grown potatoes, tomatoes, and other vegetables.
                   </p>
                 </div>
               </div>

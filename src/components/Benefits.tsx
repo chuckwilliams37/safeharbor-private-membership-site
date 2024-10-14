@@ -2,6 +2,7 @@ import { Container } from '@/components/Container'
 import { SectionHeading } from './SectionHeading'
 import campingScene from '@/images/camping-in-the-oaks.png'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export function Benefits() {
   return (
@@ -20,42 +21,39 @@ export function Benefits() {
               <div className="order-2 px-6 py-16 lg:order-1 lg:px-8">
                 <div className="max-w-lg">
                   <h2 className="text-lg font-semibold leading-7 text-green-600">
-                    I know what makes a community thrive OR fail - because we&apos;ve
-                    lived it!*
+                    We know what makes a community thrive OR fail - because we&apos;ve lived it!*
                   </h2>
                   <p className="mt-2 text-sm text-gray-500 italic">
-                    *and we read the book (Creating a Life Together) that talks
+                    *and we&apos;ve read the book <Link className='underline text-green-600' href='https://amzn.to/4h1cEdV' target='_blank' >(Creating a Life Together)</Link> that talks
                     about how 90+% of communities fail within the first 5
                     years and how to avoid the common mistakes.
                   </p>
 
                   <p className="mt-6 text-base leading-7 text-gray-600">
                     Voluntaria is a new project, but we are not new in this
-                    space - I lived in an intentional community in California
-                    for 2 years. From 2013 - 2015, I lived in an intentional
-                    community, full time. I saw firsthand what works -{' '}
-                    <b>and perhaps more importantly what doesn&apos;t.</b> And I&apos;m so
-                    excited to take those insights, and apply them to
-                    Voluntaria. Chuck and Santori have lived through a version
+                    space. One of our founders lived in an intentional community in California
+                    for 2 years, from 2013 to 2015. We saw firsthand what works -{' '}
+                    <b>and perhaps more importantly what doesn&apos;t.</b> We&apos;re excited to take those insights
+                    and apply them to Voluntaria. Some of us have lived through versions
                     of communal failure. Pulling from all our experiences and
-                    all the proactive research we have done we are as well
+                    all the proactive research we have done, we are well
                     positioned to create a thriving community.
                   </p>
                   
                   <p className="mt-4 text-base leading-7 text-gray-600">
-                    How we see it is it all comes down to clear communication, common values,
-                    individual rights&hellip;and cutting out the bullsh*t ;) This is
+                    We believe it all comes down to clear communication, common values,
+                    individual rights&hellip;and cutting out the bullsh*t. This is
                     NOT a hippie commune where you&apos;ll own nothing and be
-                    happy&hellip;and we sing nightly next to a campfire (ok well
-                    depending on who is there and if someone can play guitar
+                    happy&hellip;and we sing nightly next to a campfire (although
+                    depending on who is here and if someone can play guitar,
                     this might happen from time to time). This is an American
-                    country village, where we honor the same principals as what
-                    created our country. Where we value individual rights above
-                    the collective.
+                    country village, where we honor the same principles that
+                    created our country,<span className="font-bold"> valuing individual sovereignty above
+                    the collective.</span>
                   </p>
 
-                  <h2 className="mt-8 text-lg font-semibold leading-7 text-green-600">
-                    You&apos;re not alone anymore. <br />
+                  <h2 className="mt-8 text-xl font-semibold leading-7 text-green-600">
+                    As a member, you&apos;re not alone anymore. <br />
                     Whatever happens, we&apos;ll figure it out - together.
                   </h2>
                   <p className="mt-4 text-base leading-7 text-gray-600">
@@ -63,15 +61,15 @@ export function Benefits() {
                     To be shunned, yelled at and mocked&hellip; <br />
                     To be accused of &ldquo;killing grandma&rdquo; or &ldquo;spreading
                     misinformation&rdquo;&hellip; <br />
-                    To lose your closest friends and family&hellip; <br />
-                    Maybe you even had to leave your partner&hellip;or they left you.
+                    To lose our closest friends and family&hellip; <br />
+                    Maybe some of us even had to leave our partners&hellip;or were left.
                   </p>
                   <p className="mt-4 text-base leading-7 text-gray-600">
-                    And since 2020 - or maybe even before - you&apos;ve felt alone.
-                    Because now, when you meet the average person on the street,
-                    you wonder if they&apos;re the type of person that would have
-                    yelled in your face or called the cops on you for not
-                    wearing a mask or wanted to force inject you so you too
+                    And since 2020 - or maybe even before - we&apos;ve felt alone.
+                    Because now, when we meet the average person on the street,
+                    we wonder if they&apos;re the type of person that would have
+                    yelled in our faces or called the cops on us for not
+                    wearing a mask or wanted to force inject us so we too
                     could participate in a medical experiment.
                   </p>
                   <p className="mt-4 text-base leading-7 text-gray-600">
