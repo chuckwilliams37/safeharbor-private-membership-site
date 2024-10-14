@@ -10,11 +10,11 @@ export const ReliableFood = () => {
       <Container size="lg">
         <div className="mx-auto max-w-3xl">
           <h2 className="mb-8 text-3xl font-bold text-gray-900 sm:text-4xl">
-            Ensuring Food Security for All Voluntaria Members – Even if You Come with Nothing
+            Ensuring Food Security for All Voluntaria Members &ndash; Even if You Come with Nothing
           </h2>
           <div className="space-y-6 text-base text-gray-700 sm:text-lg">
             <p>
-             At Voluntaria, we're grateful for the natural abundance of fish and game. But we also understand the importance of planning ahead, especially when it comes to food security. Until everyone arrives and gets hands-on with fishing, hunting, and gathering, it’s tough to predict exactly how successful we’ll be.
+             At Voluntaria, we&apos;re grateful for the natural abundance of fish and game. But we also understand the importance of planning ahead, especially when it comes to food security. Until everyone arrives and gets hands-on with fishing, hunting, and gathering, it&apos;s tough to predict exactly how successful we&apos;ll be.
             </p>
             <p>
               The last thing any of us wants in a time of need is to gather together and face a shortage of food.
@@ -83,7 +83,7 @@ export const ReliableFood = () => {
             </p>
             <p>
               In fact, most of the time you&apos;ll be quite comfortable - even without
-              climate control&hellip; <br />&hellip;year-round!
+              climate control&hellip; &hellip;year-round!
             </p>
             <p className="font-semibold">At the coldest end of the spectrum:</p>
             <ul className="list-disc pl-6">
@@ -109,7 +109,9 @@ export const ReliableFood = () => {
             </p>
             <p>
               Florida&apos;s governor, Ron DeSantis, was one of the first to end COVID
-              lockdowns and other restrictions. We think that&apos;s a good sign. 
+              lockdowns (not that lockdowns were EVER acceptable in the first
+              place&hellip;but that&apos;s why you need a bugout plan instead of just moving to
+              Florida).
             </p>
             <p>
               Florida also allows concealed carry without a permit. So, when/if the
