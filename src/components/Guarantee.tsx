@@ -25,13 +25,13 @@ export const Guarantee = () => {
             <p>
               But our founding members will enjoy all infrastructure upgrades at
               current prices – locked in for 3 years. We don&apos;t know how long it
-              will take to reach that level, but we&apos;re excited about Voluntaria
+              will take to reach, but we&apos;re excited about Voluntaria
               and think the rest of the world will be too. We&apos;re getting booked on
               a number of podcasts talking about our unique offering, so we don&apos;t
               think it will be long before we are sold out.
             </p>
             <p>
-              Lock in your price before we hit hyper-inflation. Depending on
+              We suggest locking in your price before we hit hyper-inflation. Depending on
               inflation and how fast the global economy devalues the dollar, we
               might need to raise prices substantially just to keep pace. But our
               members will lock in the price for 3 years, so even though our
@@ -60,7 +60,7 @@ export const Guarantee = () => {
             </p>
             <p>
               That&apos;s why we offer a full 30-day money-back guarantee. If you change your mind
-              for any reason, we&apos;ll refund your membership and unused food supply, no questions asked.
+              for any reason, we&apos;ll refund your membership (pro-rated) and resell unused food supply to the next member.
             </p>
             <p>
               Lock in today&apos;s prices with confidence. You&apos;ll have a full month to experience

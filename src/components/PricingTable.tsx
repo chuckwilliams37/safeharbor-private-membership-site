@@ -16,7 +16,7 @@ export const PricingTable = () => {
             build next. When you&apos;re one of just a handful of members, you&apos;ll
             have maximum input, because you won&apos;t be competing with other
             members&apos; priorities. We can give maximum attention to the projects
-            that are most important to you.
+            that are most important to the group.
           </p>
           <p className="text-base text-gray-700 md:text-lg">
             You&apos;ve had a rough 4 years, navigating the collapse of Western
@@ -27,7 +27,7 @@ export const PricingTable = () => {
         {/* Vacation Offer */}
         <div className="mb-12 rounded-lg bg-white p-6 shadow-lg sm:p-8">
           <h3 className="mb-6 text-2xl font-semibold text-gray-900">
-            Enjoy a Country Vacation - On Us
+            An additional benefit of membership: 3 weeks long stay at Voluntaria
           </h3>
           <div className="space-y-4 text-base text-gray-700 md:text-lg">
             <p>
@@ -38,26 +38,26 @@ export const PricingTable = () => {
             </p>
             <p>
               As part of your membership, we&apos;re inviting you to enjoy a week stay
-              at Voluntaria (up to a week per quarter). Bring your RV, stay at the
-              property, help us with a project, and use our community kitchen.
-              Brainstorm with us on what to do next and how to do it. Perhaps you
-              have some skills in a certain area that you would like to
+              at Voluntaria. Bring your RV, stay at the property, help us with a project,
+              and use our community kitchen. Brainstorm with us on what to do next and how to do it. 
+              Perhaps you have some skills in a certain area that you would like to
               contribute? We are open to anything that is a win-win and helps us
               move the project forward.
             </p>
             <p>
-              For your one-week getaway, bring your trailer, or if you don&apos;t have
+              For your 3 weeks annual stay, bring your trailer, car camp, or if you don&apos;t have
               an RV, there is a small hotel about a 5-minute drive away.
             </p>
             <p>
-              Imagine&hellip; you&apos;ll start your day with the natural beauty of the forest
-              and meadows. You&apos;ll go for a walk and breathe fresh country air.
-              Take your kids to spot turtles by the pond or play fetch with your
-              dog in the acres of open meadow. When you feel like some excitement,
-              take a day trip to Crescent Lake and go fishing or borrow our kayaks
-              and see the lake from the water. Then you&apos;ll end the day roasting
-              marshmallows with your kids by the fire, after a community meal you
-              helped with.
+              Imagine&hellip; waking up to the serene beauty of the forest and
+              meadows. You take a peaceful morning walk, breathing in the crisp,
+              fresh air. With your family, you might spot turtles by the tranquil
+              pond or enjoy a game of fetch with your dog in the spacious meadows.
+              For a gentle adventure, you could visit nearby Crescent Lake for some
+              relaxing fishing or borrow our kayaks to explore the calm waters.
+              As evening falls, gather around a warm campfire with your loved ones,
+              roasting marshmallows and reflecting on the day&apos;s simple joys,
+              following a communal meal prepared together.
             </p>
           </div>
         </div>

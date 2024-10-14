@@ -2,6 +2,7 @@ import { NextImage } from '@/utils/NextImage'
 import { Container } from './Container'
 import { SectionHeading } from './SectionHeading'
 
+
 export const WhyUs = () => {
   return (
     <section

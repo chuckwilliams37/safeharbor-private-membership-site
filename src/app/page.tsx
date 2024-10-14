@@ -84,21 +84,22 @@ export default function Home({
           </>
         }
         bullets={[
-          `You don&apos;t need to spend weeks driving across the country, shopping
+          `You don't need to spend weeks driving across the country, shopping
             for land`,
-          `You don&apos;t need to hunt down freedom minded business partners or convince
+          `You don't need to hunt down freedom minded business partners or convince
             your friends to go in on land with you, then worry about starting from scratch when
             they bail out`,
-          `You don&apos;t need to figure out financing, or worry about your credit
+          `You don't need to figure out financing, or worry about your credit
             score`,
-          `You don&apos;t need to save for an impossibly-high down payment deposit`,
-          `You don&apos;t need to be tied down to land. Transient ownerships are encouraged!`,
-          `You don&apos;t have to fix the wells.`,
-          `You don&apos;t have to bush hog the overgrown roads/trails.`,
+          `You don't need to save for an impossibly-high down payment deposit`,
+          `You don't need to be tied down to land. Transient ownerships are encouraged!`,
+          `You don't have to fix the wells.`,
+          `You don't have to bush hog the overgrown roads/trails.`,
         ]}
         descriptionAfterBullets={
           <>
             <p className="mb-6 text-xl">
+
               You don&apos;t have to do any of it&hellip; &nbsp;
               <span className="font-bold text-green-600">
                 &hellip;We&apos;ve got you covered.

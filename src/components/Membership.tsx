@@ -36,9 +36,8 @@ export const Membership = () => {
           <div className="p-6 sm:p-8">
             <p className="text-lg text-gray-700">
               If the Sh!t were to hit the fan right now, we have the essentials of
-              survival - food, water, community, and a safe place to go. But we
-              don&apos;t have conveniences like water hookups direct to each plot, and
-              we only have one bathroom.
+              survival - food, water, shelter, community, and a safe place to go. But we
+              don&apos;t have conveniences like water hookups direct to each plot.
             </p>
           </div>
         </div>
@@ -50,9 +49,7 @@ export const Membership = () => {
           </h3>
           <p className="text-lg text-gray-700">
             We&apos;re reinvesting 25% of membership revenue into Voluntaria
-            upgrades. Buying 52 acres of land is a massive expense. At this
-            point, we&apos;ve put everything we have just into buying the land and
-            getting it functional.
+            upgrades. Buying & maintaining 52 acres of land was &amp; is a massive expense for the three ofus.
           </p>
         </div>
 
@@ -62,9 +59,8 @@ export const Membership = () => {
             You Decide What&apos;s Next
           </h3>
           <p className="text-lg text-gray-700">
-            As we sell memberships, we&apos;re putting 25% of membership revenue back
-            into the property. And you - our members - will drive the
-            decision-making on what we build next.
+            As we sell memberships, our members - will drive the
+            decision-making on what we build / upgrade next.
           </p>
         </div>
 

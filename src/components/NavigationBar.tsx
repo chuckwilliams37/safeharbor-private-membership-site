@@ -16,7 +16,7 @@ const sections = [
   // },
   { id: 'birth', title: 'The Birth of Voluntaria' },
   { id: 'benefits', title: 'Membership Benefits' },
-  { id: 'shtf', title: 'SHTF? Voluntaria.' },
+  { id: 'shtf', title: 'SHTF? -> Voluntaria' },
   { id: 'balance', title: 'Privacy & Access' },
   { id: 'pricing', title: 'Pricing' },
   // { id: 'legal', title: 'Legal & Ethics' },
