@@ -84,22 +84,21 @@ export default function Home({
           </>
         }
         bullets={[
-          `You don't need to spend weeks driving across the country, shopping
+          `You don&apos;t need to spend weeks driving across the country, shopping
             for land`,
-          `You don't need to hunt down freedom minded business partners or convince
+          `You don&apos;t need to hunt down freedom minded business partners or convince
             your friends to go in on land with you, then worry about starting from scratch when
             they bail out`,
-          `You don't need to figure out financing, or worry about your credit
+          `You don&apos;t need to figure out financing, or worry about your credit
             score`,
-          `You don't need to save for an impossibly-high down payment deposit`,
-          `You don't need to be tied down to land. Transient ownerships are encouraged!`,
-          `You don't have to fix the wells.`,
-          `You don't have to bush hog the overgrown roads/trails.`,
+          `You don&apos;t need to save for an impossibly-high down payment deposit`,
+          `You don&apos;t need to be tied down to land. Transient ownerships are encouraged!`,
+          `You don&apos;t have to fix the wells.`,
+          `You don&apos;t have to bush hog the overgrown roads/trails.`,
         ]}
         descriptionAfterBullets={
           <>
             <p className="mb-6 text-xl">
-
               You don&apos;t have to do any of it&hellip; &nbsp;
               <span className="font-bold text-green-600">
                 &hellip;We&apos;ve got you covered.
@@ -154,11 +153,11 @@ export default function Home({
             <br />
             Once you assure us that{' '}
             <b>
-              we're all on the same page
+              we&apos;re all on the same page
             </b>
             , you can just resolve payment, and your membership is secured for 1 year!
             <br />
-            You&apos;ll <b>finally</b> bugout location, all figured out in the event of the next crisis.
+            You&apos;ll <b>finally</b> have a bugout location, all figured out in the event of the next crisis.
             So no matter what happens - you&apos;ll have a
             safe, secure place to go.
           </>
