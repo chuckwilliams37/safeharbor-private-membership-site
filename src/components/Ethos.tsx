@@ -8,7 +8,7 @@ export function Ethos() {
     <section
       id="birth"
       aria-labelledby="birth-title"
-      className="scroll-mt-14 bg-gray-50 py-16 sm:scroll-mt-32 sm:py-20 lg:py-32"
+      className="scroll-mt-12 bg-gray-50 py-16 sm:scroll-mt-12 sm:py-20 lg:py-32"
     >
       <Container size="lg">
         <SectionHeading number="1">
@@ -23,7 +23,6 @@ export function Ethos() {
                   className="absolute inset-0 h-full w-full object-cover"
                   src={tallStarryNight001}
                   alt="A group of people gathered around a campfire under a starry night sky in an oak forest."
-                  layout="fill"
                 />
               </div>
             </div>
@@ -43,16 +42,16 @@ export function Ethos() {
                     Finally the perfect location. Off-grid drinking water (2 wells), great soil quality (former organic fern farm), perfect climate&hellip;and strategic location. Finally the search was over and the deal got done in 2021.
                   </p>
                   <p>
-                    But then as the project progressed a mere months after the property was acquired, their worst fears were realized. Just as they were ready to launch the community&hellip;it became apparent to all that 2 of the partners were not a fit. They wanted out and Chuck and Santori wanted them out. They owned a 1/3 of the property and it&apos;s hard to sell 1/3 of a property. So they put the whole thing on the market and figured the dream of a freedom based community was more than they could pull off. The land is huge - 52 acres. Chuck and Santori couldn&apos;t pull it off on their own especially with the property not producing any income. It was a big time and money suck for a dream that sputtered and failed to launch.
+                    But then as the project progressed a mere months after the property was acquired, their worst fears were realized. Just as they were ready to launch the community&hellip;it became apparent to all that 2 of the partners were not a fit. They wanted out and Chuck and Santori wanted them out. They owned 1/3 of the property and it&apos;s hard to sell 1/3 of a property. So they put the whole thing on the market and figured the dream of a freedom based community was more than they could pull off. The land is huge - 52 acres. Chuck and Santori couldn&apos;t pull it off on their own especially with the property not producing any income. It was a big time and money suck for a dream that sputtered and failed to launch.
                   </p>
                   <p>
                     This is where I entered the picture. I have known Chuck for years and we have very similar takes on how we feel about freedom. The 3 of us got together and talked about what went wrong and how to keep it from not going wrong again. We worked out a deal and I bought out the other 2 founding members and brought new life to the project. I had been working on a concept based on my experience living in community and my love for freedom and when the 3 of us came together it all just felt right. Merging what they had and what I had, Voluntaria was born!
                   </p>
                   <p>
-                    But I knew that with the current state of the world, we all need a safe haven for if/when the SHTF. In the end I sold my house bought out the previous partners and went all in on this project. It was a big stretch for me&hellip;but it just all felt right. I had the guys we had the property the 3 of us have great ideas&hellip;all the ingredients were there we just had to do it.
+                    But I knew that with the current state of the world, we all need a safe haven for if/when the SHTF. In the end I sold my house bought out the previous partners and went all in on this project. It was a big stretch for me&hellip;but it just all felt right. I had the guys, we had the property, and the 3 of us have great ideas&hellip;all the ingredients were there we just had to do it.
                   </p>
                   <p>
-                    That was the biggest hurdle, but it wasn&apos;t the only one. Thecommunity house and well were seriously run down.
+                    That was the biggest hurdle, but it wasn&apos;t the only one. The community house and well were seriously run down.
                   </p>
                   <p>
                     The well had MAJOR problems. We had to redo EVERYTHING - the accumulation tank, the electrical, the water filter, and all the PVC piping. The well took us weeks and thousands of dollars to fix and more time than I care to count. 

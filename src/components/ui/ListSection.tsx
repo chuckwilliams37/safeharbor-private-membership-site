@@ -31,9 +31,9 @@ export const ListSection = ({
           </ul>
         )}
         {descriptionAfterBullets && (
-          <p className="text-base text-gray-700 md:text-lg">
+          <div className="text-base text-gray-700 md:text-lg">
             {descriptionAfterBullets}
-          </p>
+          </div>
         )}
       </Container>
     </section>

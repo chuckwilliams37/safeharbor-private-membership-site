@@ -1,5 +1,5 @@
 import { Container } from './Container'
-
+import { ConvertKitLaunchButton } from './ConvertKitLaunchButton'
 export const ReliableFood = () => {
   return (
     <section
@@ -55,8 +55,7 @@ export const ReliableFood = () => {
             <p>
               And if you ever want to cancel your Voluntaria membership, that food
               is yours - you&apos;re welcome to come and pick it up, or we can help you
-              ship it to you or we can try to arrange to connect you with an
-              incoming party who can buy it from you.
+              ship it or arrange to connect you with an incoming buyer.
             </p>
           </div>
 
@@ -110,7 +109,7 @@ export const ReliableFood = () => {
             <p>
               Florida&apos;s governor, Ron DeSantis, was one of the first to end COVID
               lockdowns (not that lockdowns were EVER acceptable in the first
-              place&hellip;but that&apos;s why you need a bugout plan instead of just moving to
+              place&hellip; but that&apos;s why you need a bugout plan instead of just moving to
               Florida).
             </p>
             <p>
@@ -134,6 +133,7 @@ export const ReliableFood = () => {
               SHTF&hellip;it&apos;s probably going to be Florida!
             </p>
           </div>
+         
         </div>
       </Container>
     </section>

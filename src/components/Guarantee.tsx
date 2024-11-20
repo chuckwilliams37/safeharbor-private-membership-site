@@ -1,4 +1,5 @@
 import { Container } from './Container'
+import { ConvertKitLaunchButton } from './ConvertKitLaunchButton'
 
 export const Guarantee = () => {
   return (
@@ -34,17 +35,24 @@ export const Guarantee = () => {
               We suggest locking in your price before we hit hyper-inflation. Depending on
               inflation and how fast the global economy devalues the dollar, we
               might need to raise prices substantially just to keep pace. But our
-              members will lock in the price for 3 years, so even though our
+              members can lock in the price for 3 years, so even though our
               currency isn&apos;t stable, your bug-out plan is!
             </p>
           </div>
-          <div className="mt-8 text-center">
-            <a
-              href="#contact"
-              className="inline-block rounded-lg bg-green-600 px-6 py-3 text-lg font-semibold text-white shadow-md transition-colors hover:bg-green-700"
-            >
-              Talk to Us About Joining Voluntaria
-            </a>
+          <div className="mt-8 text-center flex gap-2 flex-col sm:flex-row space-x-2 items-center justify-center">
+            <div>
+              <a
+                href="https://www.voluntaria.community/apply.html"
+                target="_blank"
+                className="inline-block rounded-lg bg-green-600 px-6 py-3 text-lg font-semibold text-white shadow-md transition-colors hover:bg-green-700"
+              >
+                Talk to Us About Joining Voluntaria
+              </a>
+            </div>
+            <ConvertKitLaunchButton href="https://voluntaria.kit.com/products/voluntaria-premium-annual-membership">
+              <span className="inline-block mr-2">🏡</span>
+              Become a Member
+            </ConvertKitLaunchButton>
           </div>
         </div>
 
@@ -64,23 +72,30 @@ export const Guarantee = () => {
             </p>
             <p>
               Lock in today&apos;s prices with confidence. You&apos;ll have a full month to experience
-              Voluntaria risk-free &ndash; that&apos;s unheard of in the insurance world!
+              Voluntaria risk-free!
             </p>
             <p>
               We&apos;re preppers and freedom enthusiasts just like you, committed to ensuring
               everyone at Voluntaria is here voluntarily. ;-)
             </p>
           </div>
-          <div className="mt-8 text-center">
-            <a
-              href="#contact"
-              className="inline-block rounded-lg bg-green-600 px-6 py-3 text-lg font-semibold text-white shadow-md transition-colors hover:bg-green-700"
-            >
-              Talk to Us About Joining Voluntaria
-            </a>
-          </div>
+        {/* Call to Action */}
+        <div className="text-center">
+          <h3 className="mb-6 text-2xl font-semibold text-gray-900">
+            Are You Ready to Join Us?
+          </h3>
+          <p className="mb-8 text-base text-gray-700 md:text-lg">
+            The Voluntaria Safe Harbor Membership provides secure, on-demand access to a 52-acre retreat in Florida, complete with essential survival resources like water, food, and a resilient community. Designed for freedom-lovers and preppers, this membership ensures you have a reliable refuge when you need it most, without the long-term commitment of land ownership.
+          </p>
+          
+          <ConvertKitLaunchButton href="https://voluntaria.kit.com/products/voluntaria-premium-annual-membership">
+            <span className="inline-block mr-2">🏡</span>
+            Become a Member
+          </ConvertKitLaunchButton>
+        </div>
         </div>
       </Container>
     </section>
   )
 }
+

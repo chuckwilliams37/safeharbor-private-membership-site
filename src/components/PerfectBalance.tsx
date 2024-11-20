@@ -1,16 +1,16 @@
 import { Container } from './Container'
 import { SectionHeading } from './SectionHeading'
-
+import { ConvertKitLaunchButton } from './ConvertKitLaunchButton'
 export const PerfectBalance = () => {
   return (
-    <section id="balance" className="bg-green-900 py-16 sm:py-24 lg:py-32">
+    <section id="balance" className="bg-green-700 py-16 sm:py-24 lg:py-32">
       <Container size="lg">
-        <SectionHeading number="4" className="text-white">
+        <SectionHeading number="4" className="mt-12 text-white">
           Your perfect balance of easy accessibility - and remote, rural privacy
         </SectionHeading>
 
         <div className="mt-8 lg:mt-12">
-          <h2 className="text-xl font-semibold leading-7 text-green-400 mb-6">
+          <h2 className="text-xl font-semibold leading-7 text-green-200 mb-6">
             Close enough for you to get to in a crisis &hellip;remote enough to escape
             The Zombies!
           </h2>
@@ -64,6 +64,21 @@ export const PerfectBalance = () => {
             </BalanceCard>
           </div>
         </div>
+
+                  <div className="mt-8 text-center gap-3 flex flex-col sm:flex-row sm:justify-center">
+            <a
+              href="https://www.voluntaria.community/apply.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block rounded-lg bg-green-600 px-6 py-3 text-lg font-semibold text-white shadow-md transition-colors hover:bg-green-700"
+            >
+              Apply for Ownership
+            </a>
+            <ConvertKitLaunchButton href="https://voluntaria.kit.com/products/voluntaria-premium-annual-membership">
+              <span className="inline-block mr-2">🏡</span>
+              Become a Member
+            </ConvertKitLaunchButton>
+          </div>
       </Container>
     </section>
   )
@@ -77,10 +92,10 @@ interface BalanceCardProps {
 
 const BalanceCard: React.FC<BalanceCardProps> = ({ title, description, children }) => {
   return (
-    <div className="bg-green-800 rounded-lg p-6 shadow-lg">
-      <h3 className="text-lg font-semibold text-green-300 mb-3">{title}</h3>
-      <div className="text-base text-white mb-4">{description}</div>
-      <ul className="list-disc list-inside text-sm text-green-100 space-y-2 [&>p]:py-2 [&>p]:px-0 [&>p]:text-green-50 [&>p]:font-semibold">
+    <div className="bg-green-300 rounded-lg p-6 shadow-lg shadow-black/40">
+      <h3 className="text-lg font-semibold text-green-900 mb-3">{title}</h3>
+      <div className="text-base text-green-800 mb-4">{description}</div>
+      <ul className="list-disc list-inside text-sm text-green-900 space-y-2 [&>p]:py-2 [&>p]:px-0 [&>p]:text-green-800 [&>p]:font-semibold">
         {children}
       </ul>
     </div>

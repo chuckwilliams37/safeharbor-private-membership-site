@@ -1,9 +1,15 @@
 import { Container } from './Container'
 import { SectionHeading } from './SectionHeading'
+import { ConvertKitLaunchButton } from './ConvertKitLaunchButton'
+import Link from 'next/link'
 
 export const PricingTable = () => {
   return (
-    <section className="bg-gray-50 py-12 sm:py-16 lg:py-24" id="pricing">
+    <section 
+      id="pricing"
+      aria-labelledby="pricing-title"
+      className="scroll-mt-12 bg-gray-50 py-16 sm:scroll-mt-12 sm:py-20 lg:py-32"
+    >
       <Container size="lg">
         {/* Early Membership Benefits */}
         <div className="mb-12">
@@ -11,7 +17,7 @@ export const PricingTable = () => {
             Ground Floor Opportunity: Literally, You&apos;ll Have More Say in What We Build
           </SectionHeading>
 
-          <p className="mb-6 text-base text-gray-700 md:text-lg">
+          <p className="my-6 text-base text-gray-700 md:text-lg">
             The sooner you join Voluntaria, the more say you&apos;ll have on what we
             build next. When you&apos;re one of just a handful of members, you&apos;ll
             have maximum input, because you won&apos;t be competing with other
@@ -68,24 +74,13 @@ export const PricingTable = () => {
             Are You Ready to Join Us?
           </h3>
           <p className="mb-8 text-base text-gray-700 md:text-lg">
-            First, choose your Voluntaria Safe Harbor Membership length. Your
-            membership gets you a spot for your RV or tiny house at Voluntaria.
+            The <Link href="https://safeharbor.voluntaria.community/Voluntaria_Emergency_Retreat_Access_Membership_Contract_%20v0.1.2024.11.20.1152CT.pdf" target="_blank" className="text-green-600 hover:underline">Voluntaria Safe Harbor Membership</Link> provides secure, on-demand access to a 52-acre retreat in Florida, complete with essential survival resources like water, food, and a resilient community. Designed for freedom-lovers and preppers, this membership ensures you have a reliable refuge when you need it most, without the long-term commitment of land ownership.
           </p>
-          {/* Insert Pricing Table */}
-          {/* <div className="mb-12 rounded-lg bg-white p-6 shadow-lg sm:p-8">
-            <h4 className="mb-6 text-xl font-semibold text-gray-900">
-              Membership Pricing
-            </h4>
-            <div className="text-center">
-              [Insert pricing table here - see separate file]
-            </div>
-          </div> */}
-          <a
-            href="#contact"
-            className="inline-block rounded-lg bg-green-600 px-6 py-3 text-lg font-semibold text-white shadow-md transition-colors hover:bg-green-700"
-          >
-            Talk to Us About Joining Voluntaria
-          </a>
+          
+          <ConvertKitLaunchButton href="https://voluntaria.kit.com/products/voluntaria-premium-annual-membership">
+            <span className="inline-block mr-2">🏡</span>
+            Become a Member
+          </ConvertKitLaunchButton>
         </div>
       </Container>
     </section>

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Container } from '@/components/Container'
-
+import { ConvertKitLaunchButton } from './ConvertKitLaunchButton'
 export function Introduction() {
   return (
     <section
@@ -54,7 +54,7 @@ export function Introduction() {
             Don&apos;t worry - you&apos;re not alone.
           </h3>
           <p className="text-lg text-gray-700">
-            We designed Voluntaria&apos;s Safe Harbor Membership to give you the assurance of a safe place to go, when the SHTF. Without the expense or stress of buying land - or trying to do it all on your own.
+            We designed <Link href="https://safeharbor.voluntaria.community/Voluntaria_Emergency_Retreat_Access_Membership_Contract_%20v0.1.2024.11.20.1152CT.pdf" target="_blank" className="text-green-600 hover:underline">Voluntaria&apos;s Safe Harbor Membership</Link> to give you the assurance of a safe place to go, when the SHTF. Without the expense or stress of buying land - or trying to do it all on your own.
           </p>
         </div>
 
@@ -77,15 +77,31 @@ export function Introduction() {
 
         <div className="mt-12 text-center">
           <Link
-            href="https://voluntaria.ck.page/products/voluntarias-safeharbor-private-newsletter"
+            href="https://voluntaria.kit.com/666e05e5c0"
             className="inline-block rounded-lg bg-green-600 px-6 py-3 text-lg font-semibold text-white transition-colors hover:bg-green-700"
-            data-commerce
+            data-uid="666e05e5c0"
+            target="_blank"
           >
             Get our updates straight to your inbox
             <span aria-hidden="true" className="ml-2">&rarr;</span>
           </Link>
         </div>
+         <div className="mt-8 text-center gap-3 flex flex-col sm:flex-row sm:justify-center">
+            <a
+              href="https://www.voluntaria.community/apply.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block rounded-lg bg-green-600 px-6 py-3 text-lg font-semibold text-white shadow-md transition-colors hover:bg-green-700"
+            >
+              Apply for Ownership
+            </a>
+            <ConvertKitLaunchButton href="https://voluntaria.kit.com/products/voluntaria-premium-annual-membership">
+              <span className="inline-block mr-2">🏡</span>
+              Become a Member
+            </ConvertKitLaunchButton>
+          </div>
       </Container>
+       
     </section>
   )
 }

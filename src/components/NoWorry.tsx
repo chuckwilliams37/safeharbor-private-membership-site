@@ -2,7 +2,8 @@ import { NextImage } from '@/utils/NextImage'
 import { Container } from './Container'
 import markedSafeImg from '@/images/marked_safe.webp'
 import membershipResourcesImg from '@/images/membership_resources.webp'
-
+import { ConvertKitLaunchButton } from '@/components/ConvertKitLaunchButton'
+import Link from 'next/link'
 export const NoWorry = () => {
   return (
     <section className="bg-gray-50 py-8 md:py-16 lg:py-32">
@@ -29,7 +30,7 @@ export const NoWorry = () => {
               <p>
                 We have cell and internet connectivity, so you can still phone
                 home during the crisis. We&apos;re remote but not too remote. Cell
-                phones work well out here, and we have available a stable, recently upgraded fiber internet service. 
+                phones work well out here, and we have available a stable, recently upgraded fiber internet service (300mbs download &amp; upload). 
               </p>
               <p>
                 Unless there&apos;s an EMP strike or a massive internet outage, you&apos;ll
@@ -41,8 +42,36 @@ export const NoWorry = () => {
           </div>
         </div>
 
+               <div className="mt-6 p-4 bg-green-50 rounded-lg border border-green-200 mx-auto max-w-4xl my-12">
+                    <p className="text-base leading-7 text-gray-600">
+                      Want to learn more about our vision for community building? Watch two of our founders Chad Cameron and Chuck Williams discuss reimagining community through voluntaryist principles with health advocate Amandha Vollmer. They explore how self-governance and natural law can create more joyful, liberated communities.
+                    </p>
+                    <p className="mt-2">
+                      <Link 
+                        href="https://yummy.doctor/video-list/amandha-vollmer-adv-discusses-community-building-with-chad-cameron-and-chuck-williams/"
+                        target="_blank"
+                        className="text-green-600 hover:underline font-medium"
+                      >
+                        Watch the full discussion here →
+                      </Link>
+          </p>
+        </div>
+       <div className="mt-8 text-center gap-3 flex flex-col sm:flex-row sm:justify-center">
+            <a
+              href="https://www.voluntaria.community/apply.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block rounded-lg bg-green-600 px-6 py-3 text-lg font-semibold text-white shadow-md transition-colors hover:bg-green-700"
+            >
+              Apply for Ownership
+            </a>
+            <ConvertKitLaunchButton href="https://voluntaria.kit.com/products/voluntaria-premium-annual-membership">
+              <span className="inline-block mr-2">🏡</span>
+              Become a Member
+            </ConvertKitLaunchButton>
+          </div>
         {/* Membership Benefits */}
-        <div className="rounded-2xl bg-white p-6 shadow-xl lg:p-12">
+        <div className="rounded-2xl bg-white p-6 shadow-xl lg:p-12 mt-4 sm:">
           <h2 className="mb-8 text-3xl font-bold text-gray-900">
             Everything Included in Voluntaria&apos;s Safe Harbor Membership
           </h2>
@@ -55,7 +84,7 @@ export const NoWorry = () => {
           </div>
           <div className="space-y-4 text-base text-gray-700 md:text-lg">
             <p>
-              Your Voluntaria Safe Harbor Membership grants you a stay of up to 3
+              Your <Link href="https://safeharbor.voluntaria.community/Voluntaria_Emergency_Retreat_Access_Membership_Contract_%20v0.1.2024.11.20.1152CT.pdf" target="_blank" className="text-green-600 hover:underline">Voluntaria Safe Harbor Membership</Link> grants you a stay of up to 3
               months on our 52-acre property when/if the SHTF. Whether it&apos;s a
               local threat or a nationwide crisis, Voluntaria is here for you.
             </p>
@@ -77,7 +106,7 @@ export const NoWorry = () => {
               <li>The beautiful 3/4 acre pond</li>
               <li>Ability to hunt and trap game on the property</li>
               <li>As much firewood as you can chop, from the on-site forests</li>
-              <li>Thecommunity house well, and the South-side well</li>
+              <li>The community house well, and the South-side well</li>
               <li>
                 Filtered drinking water, available at the community house
                 (with an off-grid solar powered backup)
@@ -96,13 +125,19 @@ export const NoWorry = () => {
               support you through whatever comes our way.
             </p>
           </div>
-          <div className="mt-8 text-center">
+          <div className="mt-8 text-center gap-3 flex flex-col sm:flex-row sm:justify-center">
             <a
-              href="#contact"
+              href="https://www.voluntaria.community/apply.html"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block rounded-lg bg-green-600 px-6 py-3 text-lg font-semibold text-white shadow-md transition-colors hover:bg-green-700"
             >
-              Talk to Us About Joining Voluntaria
+              Apply for Ownership
             </a>
+            <ConvertKitLaunchButton href="https://voluntaria.kit.com/products/voluntaria-premium-annual-membership">
+              <span className="inline-block mr-2">🏡</span>
+              Become a Member
+            </ConvertKitLaunchButton>
           </div>
         </div>
       </Container>

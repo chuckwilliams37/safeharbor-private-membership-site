@@ -49,7 +49,7 @@ export const Membership = () => {
           </h3>
           <p className="text-lg text-gray-700">
             We&apos;re reinvesting 25% of membership revenue into Voluntaria
-            upgrades. Buying & maintaining 52 acres of land was &amp; is a massive expense for the three ofus.
+            upgrades. Buying & maintaining 52 acres of land was &amp; is a massive expense for the three of us.
           </p>
         </div>
 
@@ -65,31 +65,26 @@ export const Membership = () => {
         </div>
 
         {/* Poll Options */}
-        <div className="rounded-xl bg-white p-6 shadow-lg sm:p-8">
-          <h3 className="mb-6 text-2xl font-bold text-gray-900">
-            What Is Most Important to You?
-          </h3>
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {[
-              { label: 'Chicken coops', icon: '🐔' },
-              { label: 'More bathrooms', icon: '🚻' },
-              { label: 'Solar panels', icon: '☀️' },
-              { label: 'Propane for hot showers', icon: '🚿' },
-              { label: 'A greenhouse', icon: '🌱' },
-            ].map((item, index) => (
-              <button
-                key={index}
-                className="flex items-center justify-center rounded-lg bg-green-500 px-4 py-3 text-white shadow-md transition-colors hover:bg-green-600"
-              >
-                <span className="text-2xl">{item.icon}</span>
-                <span className="ml-2 text-lg">{item.label}</span>
-              </button>
-            ))}
-          </div>
-          <p className="mt-8 text-center text-lg text-gray-700">
-            &hellip;or something else? This is a community-driven project, a community
-            by the people for the people!&hellip;and the sky is the limit.
-          </p>
+        <div className="strawpoll-embed" id="strawpoll_Dwyo3kGKDyA"
+        style={{
+          height: '836px',
+          maxWidth: '640px',
+          width: '100%',
+          margin: '0 auto',
+          display: 'flex',
+          flexDirection: 'column',
+        }}
+        >
+          <iframe
+            title="StrawPoll Embed"
+            id="strawpoll_iframe_Dwyo3kGKDyA"
+            src="https://strawpoll.com/embed/Dwyo3kGKDyA"
+            style={
+              { position: 'static', visibility: 'visible', display: 'block', width: '100%', flexGrow: '1' }
+            }
+            allowFullScreen
+          >Loading...</iframe>
+          <script async src="https://cdn.strawpoll.com/dist/widgets.js" />
         </div>
       </Container>
     </section>

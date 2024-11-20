@@ -26,6 +26,8 @@ import { ImageSection } from '@/components/ui/ImageSection'
 import { ListSection } from '@/components/ui/ListSection'
 import { WhyUs } from '@/components/WhyUs'
 import Head from 'next/head'
+import { ConvertKitLaunchButton } from '@/components/ConvertKitLaunchButton'
+import Link from 'next/link'
 
 export default function Home({
   params: { inviteCode },
@@ -42,7 +44,7 @@ export default function Home({
         ></script>
       </Head>
       <Hero />
-      <NavigationBar />
+      
       <Introduction />
       <Testimonial
         id="testimonial-from-kevin-beamish"
@@ -64,6 +66,7 @@ export default function Home({
           And let me tell you - it was NOT easy.
         </p>
       </Testimonial>
+      <NavigationBar />
       <Ethos />
       <ListSection
         heading={
@@ -98,22 +101,33 @@ export default function Home({
         ]}
         descriptionAfterBullets={
           <>
-            <p className="mb-6 text-xl">
+            <div className="mb-6 text-xl">
 
               You don&apos;t have to do any of it&hellip; &nbsp;
               <span className="font-bold text-green-600">
                 &hellip;We&apos;ve got you covered.
               </span>
-            </p>
+            </div>
             <b>
               Voluntaria&apos;s Safe Harbor is an affordable membership that gives
               you access to a safe bugout location and community, when/if the
               SHTF. Just like you have a home insurance policy in case there&apos;s a
-              fire - we&apos;re here for in case of a crisis.
+              fire - we&apos;re here in case of a crisis.
             </b>
           </>
         }
       />
+      <div className="mt-12 text-center">
+          <Link
+            href="https://voluntaria.kit.com/666e05e5c0"
+            className="inline-block rounded-lg bg-green-600 px-6 py-3 text-lg font-semibold text-white transition-colors hover:bg-green-700"
+            data-uid="666e05e5c0"
+            target="_blank"
+          >
+            Get our updates straight to your inbox
+            <span aria-hidden="true" className="ml-2">&rarr;</span>
+          </Link>
+        </div>
       <Benefits />
       <ImageSection
         heading="Surround yourself with people who care enough to prepare"
@@ -144,7 +158,7 @@ export default function Home({
         description={
           <>
             It doesn&apos;t need to take you years, like it did for us. And there&apos;s a
-            reason why we say &ldquo;next week&rdquo; and not &ldquo;today&rdquo;. That because the most
+            reason why we say &ldquo;next week&rdquo; and not &ldquo;today&rdquo;. That&apos;s because the most
             important part of Voluntaria is that our community has a common set
             of values.
             <br />
@@ -164,6 +178,20 @@ export default function Home({
           </>
         }
       />
+      <div className="mt-8 text-center gap-3 flex flex-col sm:flex-row sm:justify-center">
+        <a
+          href="https://www.voluntaria.community/apply.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block rounded-lg bg-green-600 px-6 py-3 text-lg font-semibold text-white shadow-md transition-colors hover:bg-green-700"
+        >
+          Apply for Ownership
+        </a>
+        <ConvertKitLaunchButton href="https://voluntaria.kit.com/products/voluntaria-premium-annual-membership">
+          <span className="inline-block mr-2">🏡</span>
+          Become a Member
+        </ConvertKitLaunchButton>
+      </div>
       <WhyUs />
       <ReliableFood />
       <PerfectBalance />

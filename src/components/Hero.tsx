@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { GridPattern } from '@/components/GridPattern'
 import coverImage from '@/images/newsletter_cover_photo.png'
+import Link from 'next/link'
 
 export function Hero() {
   return (
@@ -45,6 +46,20 @@ export function Hero() {
           </div>
         </div>
       </div>
+       <div className="mt-6 p-4 bg-green-50 rounded-lg border border-green-200 mx-auto max-w-4xl my-12">
+                    <p className="text-base leading-7 text-gray-600">
+                      Want to learn more about our vision for community building? Watch two of our founders Chad Cameron and Chuck Williams discuss reimagining community through voluntaryist principles with health advocate Amandha Vollmer. They explore how self-governance and natural law can create more joyful, liberated communities.
+                    </p>
+                    <p className="mt-2">
+                      <Link 
+                        href="https://yummy.doctor/video-list/amandha-vollmer-adv-discusses-community-building-with-chad-cameron-and-chuck-williams/"
+                        target="_blank"
+                        className="text-green-600 hover:underline font-medium"
+                      >
+                        Watch the full discussion here →
+                      </Link>
+          </p>
+        </div>
     </header>
   )
 }

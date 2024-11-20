@@ -1,14 +1,14 @@
 import { NextImage } from '@/utils/NextImage'
 import { Container } from './Container'
 import { SectionHeading } from './SectionHeading'
-
+import Link from 'next/link'
 
 export const WhyUs = () => {
   return (
     <section
       id="shtf"
       aria-labelledby="shtf-title"
-      className="scroll-mt-14 py-8 sm:scroll-mt-32 sm:py-16 lg:py-32"
+      className="scroll-mt-12 py-16 sm:scroll-mt-12 sm:py-20 lg:py-32 bg-gray-50"
     >
       <Container size="lg">
         <SectionHeading number="3">
@@ -108,7 +108,7 @@ export const WhyUs = () => {
                     <li>Unlike Reverse-Osmosis (RO) systems, this system returns calcium and magnesium back into your water, instead of leeching out minerals</li>
                     <li>No power is needed to run the system, except for the water pump</li>
                     <li>The water pump has backup power from solar panels - so you&apos;ll never lose access to water purification</li>
-                    <li>The filtered water is available from the taps at the community house - just fill up a few jugs of water as needed, or drive your RV over to thecommunity house</li>
+                    <li>The filtered water is available from the taps at the community house - just fill up a few jugs of water as needed, or drive your RV over to the community house</li>
                   </ul>
 
                   <h2 className="mt-8 mb-4 text-xl font-bold leading-7 text-green-600">
@@ -143,6 +143,17 @@ export const WhyUs = () => {
               </div>
             </div>
           </div>
+        </div>
+                <div className="mt-12 text-center">
+          <Link
+            href="https://voluntaria.kit.com/666e05e5c0"
+            className="inline-block rounded-lg bg-green-600 px-6 py-3 text-lg font-semibold text-white transition-colors hover:bg-green-700"
+            data-uid="666e05e5c0"
+            target="_blank"
+          >
+            Get our updates straight to your inbox
+            <span aria-hidden="true" className="ml-2">&rarr;</span>
+          </Link>
         </div>
       </Container>
     </section>

@@ -3,13 +3,13 @@ import { SectionHeading } from './SectionHeading'
 import campingScene from '@/images/camping-in-the-oaks.png'
 import Image from 'next/image'
 import Link from 'next/link'
-
+import { ConvertKitLaunchButton } from './ConvertKitLaunchButton'
 export function Benefits() {
   return (
     <section
       id="benefits"
       aria-labelledby="benefits-title"
-      className="scroll-mt-14 py-12 sm:scroll-mt-32 sm:py-16 bg-gray-50"
+      className="scroll-mt-12 py-16 sm:scroll-mt-12 sm:py-20 lg:py-32 bg-gray-50"
     >
       <Container size="lg">
         <SectionHeading number="2">
@@ -32,15 +32,26 @@ export function Benefits() {
                   <p className="mt-6 text-base leading-7 text-gray-600">
                     Voluntaria is a new project, but we are not new in this
                     space. One of our founders lived in an intentional community in California
-                    for 2 years, from 2013 to 2015. We saw firsthand what works -{' '}
-                    <b>and perhaps more importantly what doesn&apos;t.</b> We&apos;re excited to take those insights
-                    and apply them to Voluntaria. Some of us have lived through versions
-                    of communal failure. Pulling from all our experiences and
-                    all the proactive research we have done, we are well
-                    positioned to create a thriving community.
+                    for 2 years, from 2013 to 2015. He saw first-hand what works -{' '}
+                    <b>and perhaps more importantly what doesn&apos;t.</b>
                   </p>
-                  
-                  <p className="mt-4 text-base leading-7 text-gray-600">
+
+                  <div className="mt-6 p-4 bg-green-50 rounded-lg border border-green-200">
+                    <p className="text-base leading-7 text-gray-600">
+                      Want to learn more about our vision for community building? Watch two of our founders Chad Cameron and Chuck Williams discuss reimagining community through voluntaryist principles with health advocate Amandha Vollmer. They explore how self-governance and natural law can create more joyful, liberated communities.
+                    </p>
+                    <p className="mt-2">
+                      <Link 
+                        href="https://yummy.doctor/video-list/amandha-vollmer-adv-discusses-community-building-with-chad-cameron-and-chuck-williams/"
+                        target="_blank"
+                        className="text-green-600 hover:underline font-medium"
+                      >
+                        Watch the full discussion here →
+                      </Link>
+                    </p>
+                  </div>
+
+                  <p className="mt-6 text-base leading-7 text-gray-600">
                     We believe it all comes down to clear communication, common values,
                     individual rights&hellip;and cutting out the bullsh*t. This is
                     NOT a hippie commune where you&apos;ll own nothing and be
@@ -74,7 +85,7 @@ export function Benefits() {
                   </p>
                   <p className="mt-4 text-base leading-7 text-gray-600">
                     <b>
-                      Your Safe Harbor membership isn&apos;t just about a piece of
+                      Your <Link href="https://safeharbor.voluntaria.community/Voluntaria_Emergency_Retreat_Access_Membership_Contract_%20v0.1.2024.11.20.1152CT.pdf" target="_blank" className="text-green-600 hover:underline">Safe Harbor membership</Link> isn&apos;t just about a piece of
                       land. It&apos;s about a community of like-minded, freedom-loving,
                       unvaxxed people.
                     </b>
@@ -93,6 +104,20 @@ export function Benefits() {
             </div>
           </div>
         </div>
+         <div className="mt-8 text-center gap-3 flex flex-col sm:flex-row sm:justify-center">
+            <a
+              href="https://www.voluntaria.community/apply.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block rounded-lg bg-green-600 px-6 py-3 text-lg font-semibold text-white shadow-md transition-colors hover:bg-green-700"
+            >
+              Apply for Ownership
+            </a>
+            <ConvertKitLaunchButton href="https://voluntaria.kit.com/products/voluntaria-premium-annual-membership">
+              <span className="inline-block mr-2">🏡</span>
+              Become a Member
+            </ConvertKitLaunchButton>
+          </div>
       </Container>
     </section>
   )
