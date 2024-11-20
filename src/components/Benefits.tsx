@@ -113,7 +113,7 @@ export function Benefits() {
             >
               Apply for Ownership
             </a>
-            <ConvertKitLaunchButton href="https://voluntaria.kit.com/products/voluntaria-premium-annual-membership">
+            <ConvertKitLaunchButton href="https://connect.voluntaria.community/products/voluntaria-premium-annual-membershi">
               <span className="inline-block mr-2">🏡</span>
               Become a Member
             </ConvertKitLaunchButton>

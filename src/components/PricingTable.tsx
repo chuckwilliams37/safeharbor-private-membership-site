@@ -77,7 +77,7 @@ export const PricingTable = () => {
             The <Link href="https://safeharbor.voluntaria.community/Voluntaria_Emergency_Retreat_Access_Membership_Contract_%20v0.1.2024.11.20.1152CT.pdf" target="_blank" className="text-green-600 hover:underline">Voluntaria Safe Harbor Membership</Link> provides secure, on-demand access to a 52-acre retreat in Florida, complete with essential survival resources like water, food, and a resilient community. Designed for freedom-lovers and preppers, this membership ensures you have a reliable refuge when you need it most, without the long-term commitment of land ownership.
           </p>
           
-          <ConvertKitLaunchButton href="https://voluntaria.kit.com/products/voluntaria-premium-annual-membership">
+          <ConvertKitLaunchButton href="https://connect.voluntaria.community/products/voluntaria-premium-annual-membershi">
             <span className="inline-block mr-2">🏡</span>
             Become a Member
           </ConvertKitLaunchButton>

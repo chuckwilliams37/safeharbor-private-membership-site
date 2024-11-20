@@ -36,13 +36,6 @@ export default function Home({
 }) {
   return (
     <div className="bg-gray-50 text-gray-900">
-      <Head>
-        <script
-          src="https://voluntaria.ck.page/commerce.js"
-          async
-          defer
-        ></script>
-      </Head>
       <Hero />
       
       <Introduction />
@@ -187,7 +180,7 @@ export default function Home({
         >
           Apply for Ownership
         </a>
-        <ConvertKitLaunchButton href="https://voluntaria.kit.com/products/voluntaria-premium-annual-membership">
+        <ConvertKitLaunchButton href="https://connect.voluntaria.community/products/voluntaria-premium-annual-membershi">
           <span className="inline-block mr-2">🏡</span>
           Become a Member
         </ConvertKitLaunchButton>
