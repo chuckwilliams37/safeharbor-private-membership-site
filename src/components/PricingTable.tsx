@@ -43,7 +43,7 @@ export const PricingTable = () => {
               need a vacation!
             </p>
             <p>
-              As part of your membership, we&apos;re inviting you to enjoy a week stay
+              As part of your membership, we&apos;re inviting you to enjoy up to 3 weeks stay
               at Voluntaria. Bring your RV, stay at the property, help us with a project,
               and use our community kitchen. Brainstorm with us on what to do next and how to do it. 
               Perhaps you have some skills in a certain area that you would like to
@@ -77,7 +77,7 @@ export const PricingTable = () => {
             The <Link href="https://safeharbor.voluntaria.community/Voluntaria_Emergency_Retreat_Access_Membership_Contract_%20v0.1.2024.11.20.1152CT.pdf" target="_blank" className="text-green-600 hover:underline">Voluntaria Safe Harbor Membership</Link> provides secure, on-demand access to a 52-acre retreat in Florida, complete with essential survival resources like water, food, and a resilient community. Designed for freedom-lovers and preppers, this membership ensures you have a reliable refuge when you need it most, without the long-term commitment of land ownership.
           </p>
           
-          <ConvertKitLaunchButton href="https://connect.voluntaria.community/products/voluntaria-premium-annual-membershi">
+          <ConvertKitLaunchButton href="https://connect.voluntaria.community/products/shm">
             <span className="inline-block mr-2">🏡</span>
             Become a Member
           </ConvertKitLaunchButton>

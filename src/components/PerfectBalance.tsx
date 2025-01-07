@@ -74,7 +74,7 @@ export const PerfectBalance = () => {
             >
               Apply for Ownership
             </a>
-            <ConvertKitLaunchButton href="https://connect.voluntaria.community/products/voluntaria-premium-annual-membershi">
+            <ConvertKitLaunchButton href="https://connect.voluntaria.community/products/shm">
               <span className="inline-block mr-2">🏡</span>
               Become a Member
             </ConvertKitLaunchButton>

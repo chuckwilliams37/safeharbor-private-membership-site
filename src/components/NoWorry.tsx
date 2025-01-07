@@ -65,7 +65,7 @@ export const NoWorry = () => {
             >
               Apply for Ownership
             </a>
-            <ConvertKitLaunchButton href="https://connect.voluntaria.community/products/voluntaria-premium-annual-membershi">
+            <ConvertKitLaunchButton href="https://connect.voluntaria.community/products/shm">
               <span className="inline-block mr-2">🏡</span>
               Become a Member
             </ConvertKitLaunchButton>
@@ -102,6 +102,7 @@ export const NoWorry = () => {
                 The community house, with a large kitchen, bathroom, and patio
               </li>
               <li>The community pole barn</li>
+              <li>300 Mbps fiber internet service</li>
               <li>52 acres of lush meadow and extensive forest</li>
               <li>The beautiful 3/4 acre pond</li>
               <li>Ability to hunt and trap game on the property</li>
@@ -134,7 +135,7 @@ export const NoWorry = () => {
             >
               Apply for Ownership
             </a>
-            <ConvertKitLaunchButton href="https://connect.voluntaria.community/products/voluntaria-premium-annual-membershi">
+            <ConvertKitLaunchButton href="https://connect.voluntaria.community/products/shm">
               <span className="inline-block mr-2">🏡</span>
               Become a Member
             </ConvertKitLaunchButton>
