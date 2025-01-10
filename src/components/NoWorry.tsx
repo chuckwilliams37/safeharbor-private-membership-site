@@ -84,7 +84,7 @@ export const NoWorry = () => {
           </div>
           <div className="space-y-4 text-base text-gray-700 md:text-lg">
             <p>
-              Your <Link href="https://safeharbor.voluntaria.community/Voluntaria_Emergency_Retreat_Access_Membership_Contract_%20v0.1.2024.11.20.1152CT.pdf" target="_blank" className="text-green-600 hover:underline">Voluntaria Safe Harbor Membership</Link> grants you a stay of up to 3
+              Your <Link href="https://safeharbor.voluntaria.community/Voluntaria_Emergency_Retreat_Access_Membership_Contract_v0.1.2025.01.10.0259CT.pdf" target="_blank" className="text-green-600 hover:underline">Voluntaria Safe Harbor Membership</Link> grants you a stay of up to 3
               months on our 52-acre property when/if the SHTF. Whether it&apos;s a
               local threat or a nationwide crisis, Voluntaria is here for you.
             </p>

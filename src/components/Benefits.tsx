@@ -85,7 +85,7 @@ export function Benefits() {
                   </p>
                   <p className="mt-4 text-base leading-7 text-gray-600">
                     <b>
-                      Your <Link href="https://safeharbor.voluntaria.community/Voluntaria_Emergency_Retreat_Access_Membership_Contract_%20v0.1.2024.11.20.1152CT.pdf" target="_blank" className="text-green-600 hover:underline">Safe Harbor membership</Link> isn&apos;t just about a piece of
+                      Your <Link href="https://safeharbor.voluntaria.community/Voluntaria_Emergency_Retreat_Access_Membership_Contract_v0.1.2025.01.10.0259CT.pdf" target="_blank" className="text-green-600 hover:underline">Safe Harbor membership</Link> isn&apos;t just about a piece of
                       land. It&apos;s about a community of like-minded, freedom-loving,
                       unvaxxed people.
                     </b>

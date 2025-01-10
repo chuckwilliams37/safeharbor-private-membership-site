@@ -54,7 +54,7 @@ export function Introduction() {
             Don&apos;t worry - you&apos;re not alone.
           </h3>
           <p className="text-lg text-gray-700">
-            We designed <Link href="https://safeharbor.voluntaria.community/Voluntaria_Emergency_Retreat_Access_Membership_Contract_%20v0.1.2024.11.20.1152CT.pdf" target="_blank" className="text-green-600 hover:underline">Voluntaria&apos;s Safe Harbor Membership</Link> to give you the assurance of a safe place to go, when the SHTF. Without the expense or stress of buying land - or trying to do it all on your own.
+            We designed <Link href="https://safeharbor.voluntaria.community/Voluntaria_Emergency_Retreat_Access_Membership_Contract_v0.1.2025.01.10.0259CT.pdf" target="_blank" className="text-green-600 hover:underline">Voluntaria&apos;s Safe Harbor Membership</Link> to give you the assurance of a safe place to go, when the SHTF. Without the expense or stress of buying land - or trying to do it all on your own.
           </p>
         </div>
 
