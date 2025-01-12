@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "npm run dev:next",
+    "dev": "node init && npm run dev:next",
     "dev:next": "next dev",
     "dev:sanity": "npx sanity dev",
-    "build": "run-p build:next",
+    "build": "node init && run-p build:next",
     "build:sanity": "npx sanity build",
     "build:next": "next build",
-    "start": "next start",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "browserslist": "defaults, not ie <= 11",
