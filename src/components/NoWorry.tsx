@@ -1,6 +1,6 @@
 import { NextImage } from '@/utils/NextImage'
 import { Container } from './Container'
-import markedSafeImg from '@/images/marked_safe.webp'
+import markedSafeImg from '@/images/Marked_Safe_Scene_Sign.webp'
 import membershipResourcesImg from '@/images/membership_resources.webp'
 import { ConvertKitLaunchButton } from '@/components/ConvertKitLaunchButton'
 import Link from 'next/link'
